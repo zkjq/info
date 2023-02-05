@@ -1,9 +1,2461 @@
-<html> 
-     <header> 
-         <link href='dark.css'/> 
-         <link href='light.css'/> 
-     </header> 
-     <body> 
-         test 
-     </body> 
- </html> 
+<html lang="zh-CN"><link rel="stylesheet" href="https://lib.baomitu.com/font-awesome/6.1.2/css/all.css"><head> 
+  <style type="text/css">.amap-logo{display:block!important;pointer-events:none;}</style><style type="text/css" class="AMap.style">.vml{behavior:url(#default#VML);display:inline-block;position:absolute}.amap-custom{top:0;left:0;position:absolute}.amap-container img{max-width:none!important;max-height:none!important}.amap-container{touch-action:none;position:relative;overflow:hidden;background:#fcf9f2 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfQAAAH0AgMAAAC2uDcZAAAADFBMVEX////////////////1pQ5zAAAABHRSTlMAgP/AWuZC2AAAAVhJREFUeAFiYGAQYGDEQjAB2rcDC4BiGIqiU7abdKlO2QkeIClyPsDHweMKtOPHIJ1Op6/w7Y4fdqfT6VpndzqdrnV2p9PpWmd3Oj3qWndSoKp+2J1Op7vr7E6n07XO7nQ6XevsTqfTtc7udPo4/f787E6n0911dqfT6VpndzqdrnV2p9PpWmd3Ot27Ce8m6HS6u85dR6fTtU7r6HS61mkdnU7XOrvT6XTvJuxOp9PddXan0+laZ3c6na51dDpd67SOTqd7N+HdBJ1Od9e56+h0utZpHZ1O1zq70+l0rbM7nU73bsLudDrdXWd3Ol3rtI5Op2ud1tHpdK3TOjqd7t2EdxN0Ot1dZ3c6na51dqfT6VpndzqdrnV2p9Pp3k3Q6XR3nbuOTqdrndbR6XSt0zo6na51Wken072bsDudTnfX2Z1Op2ud3el0utbZnU7XOq2j0+t0uncTD1gO4zoT5doZAAAAAElFTkSuQmCC);-ms-touch-action:none}.amap-drags,.amap-layers{width:100%;height:100%;position:absolute;overflow:hidden}.amap-layers canvas{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.amap-layer img{pointer-events:none}.amap-e,.amap-maps{width:100%;height:100%}.amap-maps,.amap-e,.amap-layers,.amap-tile,.amap-tile-container{position:absolute;left:0;top:0;overflow:hidden}.amap-context{position:absolute;left:0;top:0}.amap-overlays,.amap-markers,.amap-marker{position:absolute;left:0;top:0}.amap-layers{z-index:0}.amap-overlays{z-index:110;cursor:default}.amap-markers{z-index:120}.amap-controls{z-index:150}.amap-copyright{position:absolute;display:block!important;left:85px;height:16px;bottom:.1px;padding-bottom:3px;font-size:11px;font-family:Arial,sans-serif;z-index:160}.amap-logo{position:absolute;bottom:1.5px;left:4px;z-index:160;height:20px}.amap-logo img{width:73px!important;height:20px!important;border:0;vertical-align:baseline!important}.amap-icon{position:relative;z-index:1}.amap-icon img{position:absolute;z-index:-1}.amap-marker-label{position:absolute;z-index:2;border:1px solid blue;background-color:white;white-space:nowrap;cursor:default;padding:3px;font-size:12px;line-height:14px}.amap-info{position:absolute;left:0;z-index:140;width:320px}.amap-menu{position:absolute;z-index:140;_width:100px}.amap-info-close{position:absolute;right:5px;_right:12px;+right:11px;top:5px;_top:2px;+top:2px;color:#c3c3c3;text-decoration:none;font:bold 16px/14px Tahoma,Verdana,sans-serif;width:14px;height:14px}.amap-info-outer,.amap-menu-outer{box-shadow:0 1px 2px rgba(0,0,0,0.1);background:none repeat scroll 0 0 white;border-radius:2px;padding:1px;text-align:left}.amap-menu-outer:hover{box-shadow:0 1px 2px rgba(0,0,0,0.3)}.amap-info-contentContainer:hover .amap-info-outer{box-shadow:0 1px 2px rgba(0,0,0,0.3)}.amap-info-content{position:relative;background:#fff;padding:10px 18px 10px 10px;line-height:1.4;overflow:auto}.amap-marker-content{position:relative}.amap-info{_width:320px}.amap-menu{_width:100px}.amap-info-sharp-old{overflow:hidden;position:absolute;background-image:url(http://webapi.amap.com/images/arrows.png)}.bottom-center .amap-info-sharp-old{height:12px;margin:0 auto;width:20px;background-position:center 12px;top:100%;margin-top:-9px;left:50%;margin-left:-10px}.bottom-left .amap-info-sharp-old{height:12px;width:13px;background-position:-16px -46px;top:100%;margin-top:-9px}.bottom-right .amap-info-sharp-old{height:12px;width:13px;top:-1px;background-position:-56px -46px;left:100%;margin-left:-13px;top:100%;margin-top:-9px}.middle-left .amap-info-sharp-old{height:20px;width:12px;background-position:left;top:50%;margin-top:-10px;margin-left:-11px}.center .amap-info-sharp-old{display:none}.middle-right .amap-info-sharp-old{height:20px;margin-right:0;width:12px;background-position:right;left:100%;margin-left:-9px;top:50%;margin-top:-10px}.top-center .amap-info-sharp-old{height:12px;margin:0 auto;width:20px;background-position:top;top:0;margin-top:-3px;left:50%;margin-left:-10px}.top-left .amap-info-sharp-old{height:12px;width:13px;background-position:-16px -3px;top:0;margin-top:-3px}.top-right .amap-info-sharp-old{height:12px;width:13px;background-position:-56px -3px;left:100%;margin-left:-13px;top:0;margin-top:-3px}.amap-info-sharp{position:absolute}.bottom-center .amap-info-sharp{bottom:0;left:50%;margin-left:-8px;border-left:8px solid transparent;border-right:8px solid transparent;border-top:8px solid #fff}.bottom-center .amap-info-sharp:after{position:absolute;content:"";margin-left:-8px;margin-top:-7px;border-left:8px solid transparent;border-right:8px solid transparent;border-top:8px solid rgba(0,0,0,0.3);filter:blur(2px);z-index:-1}.amap-info-contentContainer:hover.bottom-center .amap-info-sharp:after{border-top:8px solid rgba(0,0,0,0.5)}.bottom-left .amap-info-sharp{border-color:transparent #fff;border-width:0 0 10px 10px;border-style:solid}.bottom-left .amap-info-sharp:after{position:absolute;content:"";margin-left:-10px;border-color:transparent rgba(0,0,0,0.3);border-width:0 0 10px 10px;border-style:solid;filter:blur(1px);z-index:-1}.amap-info-contentContainer:hover.bottom-left .amap-info-sharp:after{border-color:transparent rgba(0,0,0,0.5)}.bottom-left .amap-info-content{border-radius:2px 2px 2px 0}.bottom-right .amap-info-sharp{right:0;border-top:10px solid #fff;border-left:10px solid transparent}.bottom-right .amap-info-sharp:after{position:absolute;margin-top:-9px;margin-left:-10px;content:"";border-top:10px solid rgba(0,0,0,0.3);border-left:10px solid transparent;filter:blur(1px);z-index:-1}.amap-info-contentContainer:hover.bottom-right .amap-info-sharp:after{border-top:10px solid rgba(0,0,0,0.5)}.bottom-right .amap-info-content{border-radius:2px 2px 0 2px}.top-center .amap-info-sharp{top:0;left:50%;margin-left:-8px;border-left:8px solid transparent;border-right:8px solid transparent;border-bottom:8px solid #fff}.top-center .amap-info-sharp:after{position:absolute;content:"";margin-top:0;margin-left:-8px;border-left:8px solid transparent;border-right:8px solid transparent;border-bottom:8px solid rgba(0,0,0,0.3);filter:blur(1px);z-index:-1}.top-left .amap-info-sharp{left:0;top:0;border-bottom:10px solid #fff;border-right:10px solid transparent}.top-left .amap-info-sharp:after{position:absolute;content:"";margin-top:0;margin-left:0;border-bottom:10px solid rgba(0,0,0,0.3);border-right:10px solid transparent;filter:blur(1px);z-index:-1}.top-right .amap-info-sharp{right:0;top:0;border-bottom:10px solid #fff;border-left:10px solid transparent}.top-right .amap-info-sharp:after{position:absolute;content:"";margin-top:0;margin-left:-10px;border-bottom:10px solid rgba(0,0,0,0.3);border-left:10px solid transparent;filter:blur(1px);z-index:-1}.middle-right .amap-info-sharp{right:0;top:50%;margin-top:-8px;border-top:8px solid transparent;border-left:8px solid #fff;border-bottom:8px solid transparent}.middle-right .amap-info-sharp:after{position:absolute;content:"";margin-top:-8px;margin-left:-8px;border-top:8px solid transparent;border-left:8px solid rgba(0,0,0,0.3);border-bottom:8px solid transparent;filter:blur(1px);z-index:-1}.amap-info-contentContainer:hover.middle-right .amap-info-sharp:after{border-left:8px solid rgba(0,0,0,0.5)}.middle-left .amap-info-sharp{left:0;top:50%;margin-top:-8px;border-top:8px solid transparent;border-right:8px solid #fff;border-bottom:8px solid transparent}.middle-left .amap-info-sharp:after{position:absolute;content:"";margin-top:-8px;margin-left:0;border-top:8px solid transparent;border-right:8px solid rgba(0,0,0,0.3);border-bottom:8px solid transparent;filter:blur(1px);z-index:-1}.amap-info-contentContainer:hover.middle-left .amap-info-sharp:after{border-right:8px solid rgba(0,0,0,0.5)}.amap-info-contentContainer.top-left,.amap-info-contentContainer.top-center,.amap-info-contentContainer.top-right{padding-top:8px}.amap-info-contentContainer.bottom-left,.amap-info-contentContainer.bottom-center,.amap-info-contentContainer.bottom-right{padding-bottom:8px}.amap-info-contentContainer.middle-right{padding-right:8px}.amap-info-contentContainer.middle-left{padding-left:8px}.amap-menu-outer{margin:0;padding:0;list-style-type:none}ul.amap-menu-outer li{cursor:pointer;height:35px;line-height:35px;word-break:break-all;padding:0 10px;font-size:12px;white-space:nowrap}ul.amap-menu-outer li a{text-decoration:none;font-size:13px;margin:0 5px;color:#000;padding:5px 5px}ul.amap-menu-outer li:hover{background-color:#f3f3ee}.amap-overlay-text-container{display:block;width:auto;word-break:keep-all;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background:#fff;padding:2px 3px;border:1px solid #ccc;border-radius:3px}.amap-overlay-text-container.amap-overlay-text-empty{display:none}.amap-info-content-ie8{border:1px solid #9c9c9c}</style><meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+  <meta http-equiv="Cache-Control" content="no-siteapp"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-touch-fullscreen" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="full-screen" content="yes">
+  <!--UC强制全屏--> 
+  <meta name="browsermode" content="application">
+  <!--UC应用模式--> 
+  <meta name="x5-fullscreen" content="true">
+  <!--QQ强制全屏--> 
+  <meta name="x5-page-mode" content="app">
+  <!--QQ应用模式--> 
+  <title>X主页 - 简洁的搜索导航</title> 
+  <meta name="keywords" content="搜索，网址导航，浏览器主页">
+  <meta name="description" content="可能是最简洁的搜索导航，给你简单舒爽的搜索体验。">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> 
+  <link href="css/style.css" rel="stylesheet"> 
+  <link href="css/sousuo.css" rel="stylesheet">  
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_1572019_yrk10qvz.css"> 
+  <link rel="stylesheet" href="//at.alicdn.com/t/font_1717091_aav2rq7m97j.css">
+  <!--<link rel="stylesheet" href="css/loading.css">-->  <!--加载动画-->
+  <!--<script src="https://cdnjs.loli.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+  <!--<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script> -->
+  <link rel="stylesheet" href="https://widget.qweather.net/simple/static/css/he-simple.css?v=1.4.0"><script src="https://widget.qweather.net/simple/static/js/he-simple.js?v=1.4.0"></script><script src="https://cdn.staticfile.org/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/xd.js"></script> 
+
+ <style id="ldqu4mh0.e7b">
+                 #search-jumper {
+                     font-size: 16px;
+                 }
+                 #search-jumper.search-jumper-showall {
+                     overflow-y: hidden;
+                     pointer-events: all;
+                     overscroll-behavior: contain;
+                     -ms-scroll-chaining: contain;
+                     flex-direction: unset;
+                     max-width: unset;
+                     max-height: unset;
+                     text-align: center;
+                     top: 0;
+                     bottom: unset;
+                     height: 100%;
+                 }
+                 #search-jumper.search-jumper-showall>.search-jumper-searchBar {
+                     display: none;
+                 }
+                 #search-jumper.search-jumper-showall .search-jumper-showallInput {
+                     background-color: #212022;
+                     color: white;
+                     border: none;
+                     font-size: 20px;
+                     height: 40px;
+                     margin-bottom: 0;
+                     padding: 5px;
+                     margin: 0 10px;
+                     box-shadow: #333 0px 0px 2px;
+                     outline: none;
+                     box-sizing: border-box;
+                     cursor: text;
+                     user-select: none;
+                     -webkit-user-select: none;
+                     -moz-user-select: none;
+                     -khtml-user-select: none;
+                     -ms-user-select: none;
+                     position: fixed;
+                     width: 50%;
+                     left: 25%;
+                     top: 1%;
+                     border-radius: 10px;
+                     box-shadow: 0px 0px 10px 0px #7a7a7a;
+                     pointer-events: all;
+                 }
+                 #search-jumper.search-jumper-showall #search-jumper-alllist .sitelist {
+                     visibility: visible!important;
+                     opacity: 1;
+                     pointer-events: all;
+                     text-align: left;
+                     position: static;
+                     display: block!important;
+                     height: fit-content;
+                     max-height: calc(100vh - 120px);
+                     overscroll-behavior: contain;
+                     -ms-scroll-chaining: contain;
+                 }
+                 #search-jumper.search-jumper-showall #search-jumper-alllist .sitelist>.sitelistCon {
+                     opacity: 1;
+                 }
+                 #search-jumper.search-jumper-showall #search-jumper-alllist .sitelist>.sitelistCon>p {
+                     pointer-events: all;
+                     cursor: pointer;
+                 }
+                 #search-jumper.search-jumper-showall #search-jumper-alllist .sitelist:hover {
+                     z-index: 1;
+                 }
+                 #search-jumper.search-jumper-showall.search-jumper-searchBarCon {
+                     -ms-overflow-style: unset;
+                     scrollbar-width: unset;
+                     overflow: hidden;
+                 }
+                 #search-jumper-alllist {
+                     display: none;
+                     top: 101px;
+                     position: absolute;
+                     width: 100%;
+                     overflow-x: scroll;
+                     overflow-y: hidden;
+                     height: calc(100% - 101px);
+                 }
+                 #search-jumper-alllist>.search-jumper-btn {
+                     position: fixed;
+                     top: 1%;
+                     right: 25%;
+                     filter: drop-shadow(1px 1px 3px #00000060);
+                     cursor: pointer;
+                     pointer-events: all;
+                 }
+                 #search-jumper-alllist>.search-jumper-btn>svg {
+                     cursor: pointer;
+                 }
+                 .search-jumper-showallBg {
+                     display: none;
+                     position: fixed;
+                     left: 0;
+                     top: 0;
+                     width: 100%;
+                     height: 100%;
+                     z-index: -1;
+                     background-color: rgba(255, 255, 255, 0.1);backdrop-filter: blur(10px);-webkit-backdrop-filter: blur(5px);transition:background-color 1s ease;
+                 }
+                 #search-jumper.search-jumper-showall>.search-jumper-showallBg {
+                     display: block;
+                 }
+                 #search-jumper-alllist:hover+.search-jumper-showallBg {
+                     backdrop-filter: none;
+                     -webkit-backdrop-filter: none;
+                     background-color: rgb(28 33 39 / 80%);
+                 }
+                 .search-jumper-historylist {
+                     display: flex;
+                     position: fixed;
+                     width: 100%;
+                     justify-content: center;
+                     left: 0;
+                     top: 60px;
+                     background: white;
+                     border-bottom: 1px solid #ddd;
+                     pointer-events: all;
+                 }
+                 .search-jumper-historylist>a.search-jumper-btn {
+                 }
+                 #search-jumper.search-jumper-showall #search-jumper-alllist {
+                     display: block;
+                 }
+                 #search-jumper-alllist>.sitelistBox {
+                     display: flex;
+                     min-width: 100%;
+                     justify-content: center;
+                     width: fit-content;
+                     min-height: 100%;
+                 }
+                 .search-jumper-searchBarCon {
+                     all: unset;
+                     position: fixed;
+                     top: 0;
+                     left: 0;
+                     width: 100%;
+                     z-index: 2147483646;
+                     pointer-events: none;
+                     text-align: center;
+                     overflow: scroll;
+                     display: block;
+                     -ms-overflow-style: none;
+                     scrollbar-width: none;
+                     box-sizing: border-box;
+                     z-index: 2147483647;
+                     user-select: none;
+                 }
+                 .search-jumper-searchBar {
+                     z-index: 2147483647;
+                     overflow-wrap: break-word;
+                     background: #505050;
+                     border-radius: 18.900000000000002px!important;
+                     border: 1px solid #b3b3b3;
+                     display: inline-flex;
+                     pointer-events: all;
+                     margin-top: -22.5px;
+                     vertical-align: top;
+                     opacity: 0.3;
+                     transition:margin-top 1s ease, margin-left 1s, right 1s, opacity 1s, transform 1s;
+                     user-select: none;
+                     text-align: center;
+                     position: relative;
+                     box-sizing: border-box;
+                 }
+                 .hideAll>.search-jumper-searchBar {
+                     margin-top: -36px;
+                 }
+                 .search-jumper-searchBarCon:not(.search-jumper-showall)::-webkit-scrollbar {
+                     width: 0 !important;
+                     height: 0 !important;
+                 }
+                 .search-jumper-searchBarCon.search-jumper-scroll {
+                     pointer-events: all;
+                     overscroll-behavior: contain;
+                     -ms-scroll-chaining: contain;
+                 }
+                 .search-jumper-scroll.search-jumper-bottom {
+                     overflow-y: hidden;
+                 }
+                 .search-jumper-scroll>.search-jumper-searchBar {
+                     position: static !important;
+                 }
+                 .search-jumper-scroll.search-jumper-right>.search-jumper-searchBar {
+                     position: absolute !important;
+                     top: 0;
+                 }
+                 .search-jumper-scroll.search-jumper-bottom>.search-jumper-searchBar {
+                     margin-top: 0px;
+                 }
+                 .search-jumper-scroll.search-jumper-bottom>.search-jumper-searchBar:hover,
+                 .search-jumper-scroll.search-jumper-bottom>.search-jumper-searchBar.initShow,
+                 .resizePage.search-jumper-scroll.search-jumper-bottom>.search-jumper-searchBar,
+                 .search-jumper-scroll.search-jumper-bottom.funcKeyCall>.search-jumper-searchBar,
+                 #search-jumper.in-input.search-jumper-scroll.search-jumper-bottom>.search-jumper-searchBar {
+                     margin-top: 0px;
+                 }
+                 .search-jumper-searchBar:hover {
+                     margin-top: 0;
+                     opacity: 1;
+                     transition:margin-top 0.1s ease, margin-left 0.1s, right 0.1s, opacity 0.1s, transform 0.1s;
+                 }
+                 .search-jumper-searchBar.initShow,
+                 .resizePage>.search-jumper-searchBar {
+                     margin-top: 0;
+                     opacity: 0.8;
+                     transition:margin-top 0.25s ease, margin-left 0.25s, right 0.25s, opacity 0.25s, transform 0.25s;
+                 }
+                 .funcKeyCall>.search-jumper-searchBar.initShow {
+                     transition:opacity 0.5s ease-out;
+                 }
+                 #search-jumper.funcKeyCall {
+                     overflow: visible;
+                     position: absolute;
+                 }
+                 .funcKeyCall>.search-jumper-searchBar {
+                     position: absolute!important;
+                     background: none;
+                     border: none;
+                     max-width: unset!important;
+                     margin: unset;
+                     
+                     
+                 }
+                 .funcKeyCall>.search-jumper-searchBar:hover {
+                     
+                 }
+                 .in-input>.search-jumper-searchBar,
+                 .funcKeyCall>.search-jumper-searchBar {
+                     opacity: 1;
+                     display: inline-flex!important;
+                 }
+                 .funcKeyCall>.search-jumper-searchBar {
+                     flex-direction: column;
+                 }
+                 #search-jumper.funcKeyCall>.search-jumper-searchBar>.search-jumper-type {
+                     height: auto!important;
+                     width: 216px!important;
+                     max-width: unset;
+                     max-height: 107.2px;
+                     flex-wrap: wrap!important;
+                     flex-direction: row;
+                     padding: 5px;
+                     box-shadow: #000000 0px 0px 10px;
+                     overflow: auto;
+                     scrollbar-width: none;
+                     overscroll-behavior: contain;
+                     -ms-scroll-chaining: contain;
+                     transition: none;
+                     background: #d0d0d0d0;
+                     box-sizing: content-box;
+                 }
+                 #search-jumper.funcKeyCall>.search-jumper-searchBar>.search-jumper-type>.sitelist {
+                     display: none;
+                 }
+                 #search-jumper.funcKeyCall>.search-jumper-searchBar>.search-jumper-type>a.search-jumper-btn {
+                     
+                 }
+                 #search-jumper.funcKeyCall>.search-jumper-searchBar>.search-jumper-type:hover>a.search-jumper-btn {
+                     
+                 }
+                 #search-jumper.funcKeyCall>.search-jumper-searchBar>.search-jumper-type:hover {
+                     height: auto!important;
+                     width: 216px!important;
+                 }
+                 #search-jumper.funcKeyCall>.search-jumper-searchBar>.search-jumper-type::-webkit-scrollbar {
+                     width: 0 !important;
+                     height: 0 !important;
+                 }
+                 .search-jumper-left,
+                 .search-jumper-left .search-jumper-type,
+                 .search-jumper-left>.search-jumper-searchBar,
+                 .search-jumper-right,
+                 .search-jumper-right .search-jumper-type,
+                 .search-jumper-right>.search-jumper-searchBar {
+                     flex-direction: column;
+                     max-width: 37.800000000000004px;
+                     max-height: unset;
+                 }
+                 .search-jumper-left {
+                     height: 100%;
+                     text-align: initial;
+                 }
+                 .search-jumper-right {
+                     left: unset;
+                     right: 0;
+                     height: 100%;
+                 }
+                 .searchJumperExpand {
+                     opacity: 0.8;
+                 }
+                 .searchJumperExpand:hover {
+                     opacity: 1;
+                 }
+                 .searchJumperExpand>svg {
+                     transform: rotate(-90deg);
+                     border-radius: 20px;
+                     filter: drop-shadow(0px 0px 2px black);
+                     width: unset;
+                     height: unset;
+                     color: black;
+                 }
+                 .search-jumper-type:not(.search-jumper-hide)>span.search-jumper-word {
+                     filter: drop-shadow(0px 0px 2px black);
+                 }
+                 .search-jumper-left .searchJumperExpand>svg,
+                 .search-jumper-right .searchJumperExpand>svg {
+                     transform: unset;
+                 }
+                 .search-jumper-bottom {
+                     top: unset;
+                     bottom: 0;
+                     height: 37.800000000000004px;
+                     max-height: 38.7px;
+                     overflow-y: hidden;
+                 }
+                 .search-jumper-left>.search-jumper-searchBar {
+                     margin-top: 0;
+                     margin-left: -18px;
+                 }
+                 .hideAll.search-jumper-left>.search-jumper-searchBar {
+                     margin-left: -36px;
+                 }
+                 .search-jumper-right>.search-jumper-searchBar {
+                     margin-top: 0;
+                     right: -18px;
+                     position: fixed;
+                 }
+                 .hideAll.search-jumper-right>.search-jumper-searchBar {
+                     right: -36px;
+                 }
+                 .search-jumper-left>.search-jumper-searchBar:hover,
+                 .search-jumper-left>.search-jumper-searchBar.initShow,
+                 .resizePage.search-jumper-left>.search-jumper-searchBar,
+                 .search-jumper-left.funcKeyCall>.search-jumper-searchBar,
+                 #search-jumper.in-input.search-jumper-left>.search-jumper-searchBar {
+                     margin-top: unset;
+                     margin-left: 0;
+                     opacity: 1;
+                 }
+                 .search-jumper-right>.search-jumper-searchBar:hover,
+                 .search-jumper-right>.search-jumper-searchBar.initShow,
+                 .resizePage.search-jumper-right>.search-jumper-searchBar,
+                 .search-jumper-right.funcKeyCall>.search-jumper-searchBar,
+                 #search-jumper.in-input.search-jumper-right>.search-jumper-searchBar {
+                     margin-top: unset;
+                     right: 0;
+                     opacity: 1;
+                 }
+                 .search-jumper-bottom>.search-jumper-searchBar {
+                     position: relative;
+                     margin-top: 0px;
+                 }
+                 .hideAll.search-jumper-bottom>.search-jumper-searchBar {
+                     opacity: 0;
+                 }
+                 .search-jumper-bottom>.search-jumper-searchBar:hover,
+                 .search-jumper-bottom>.search-jumper-searchBar.initShow,
+                 .resizePage.search-jumper-bottom>.search-jumper-searchBar,
+                 .search-jumper-bottom.funcKeyCall>.search-jumper-searchBar,
+                 #search-jumper.in-input.search-jumper-bottom>.search-jumper-searchBar {
+                     margin-top: 0px;
+                     opacity: 1;
+                 }
+                 .search-jumper-btn {
+                     position: relative;
+                     display: grid;
+                     padding: 0.9px;
+                     margin: 2.7px;
+                     cursor: pointer;
+                     box-sizing: content-box;
+                     transition:margin-left 0.25s ease, width 0.25s, height 0.25s, transform 0.25s;
+                     width: 28.8px;
+                     height: 28.8px;
+                     overflow: hidden;
+                     text-overflow: ellipsis;
+                     white-space: nowrap;
+                     text-decoration:none;
+                     min-width: 28.8px;
+                     min-height: 28.8px;
+                 }
+                 .search-jumper-btn>img {
+                     width: 28.8px;
+                     height: 28.8px;
+                 }
+                 .search-jumper-btn>b {
+                     line-height: 28.8px;
+                     letter-spacing: 0;
+                     color: white;
+                 }
+                 .search-jumper-btn.noIcon>b {
+                     color: #f6e9d2;
+                 }
+                 .search-jumper-btn.noIcon:hover>b {
+                     color: wheat;
+                 }
+                 .search-jumper-btn>div {
+                     position: absolute;
+                     width: 100%;
+                     height: 100%;
+                     line-height: 28.8px;
+                     background: black;
+                     border-radius: 18px;
+                     font-size: 27px;
+                     color: wheat;
+                     display: none;
+                 }
+                 .search-jumper-isInPage .search-jumper-btn>div,
+                 .search-jumper-isTargetImg .search-jumper-btn>div,
+                 .search-jumper-isTargetAudio .search-jumper-btn>div,
+                 .search-jumper-isTargetVideo .search-jumper-btn>div,
+                 .search-jumper-isTargetLink .search-jumper-btn>div,
+                 .search-jumper-isTargetPage .search-jumper-btn>div {
+                     animation-name: changeOpacity;
+                     animation-duration: 2.5s;
+                     animation-iteration-count: infinite;
+                     animation-delay: 0.1s;
+                     display: block;
+                     opacity: 0.1;
+                 }
+                 @keyframes changeOpacity {
+                     0%   {opacity: 0.1;}
+                     50%  {opacity: 0.6;}
+                     100% {opacity: 0.1;}
+                 }
+                 .searchJumper-loading {
+                     animation-name: changeScale;
+                     animation-duration: 2.5s;
+                     animation-iteration-count: infinite;
+                 }
+                 @keyframes changeScale {
+                     0% {
+                         -webkit-transform:rotate(0deg) scale(1);
+                         -moz-transform:rotate(0deg) scale(1);
+                         transform:rotate(0deg) scale(1);
+                     }
+                     50% {
+                         -webkit-transform:rotate(180deg) scale(1.5);
+                         -moz-transform:rotate(180deg) scale(1.5);
+                         transform:rotate(180deg) scale(1.5);
+                     }
+                     100% {
+                         -webkit-transform:rotate(360deg) scale(1);
+                         -moz-transform:rotate(360deg) scale(1);
+                         transform:rotate(360deg) scale(1);
+                     }
+                 }
+                 .search-jumper-logoBtnSvg {
+                     width: 28.8px;
+                     height: 28.8px;
+                     overflow: hidden;
+                     vertical-align: top;
+                     cursor: grab;
+                 }
+                 .search-jumper-type.search-jumper-needInPage,
+                 .search-jumper-type.search-jumper-targetImg,
+                 .search-jumper-type.search-jumper-targetAudio,
+                 .search-jumper-type.search-jumper-targetVideo,
+                 .search-jumper-type.search-jumper-targetLink,
+                 .search-jumper-type.search-jumper-targetPage,
+                 .search-jumper-isTargetImg>.search-jumper-type,
+                 .search-jumper-isTargetAudio>.search-jumper-type,
+                 .search-jumper-isTargetVideo>.search-jumper-type,
+                 .search-jumper-isTargetLink>.search-jumper-type,
+                 .search-jumper-searchBar:hover>.search-jumper-type.search-jumper-needInPage,
+                 .search-jumper-searchBar:hover>.search-jumper-type.search-jumper-targetImg,
+                 .search-jumper-searchBar:hover>.search-jumper-type.search-jumper-targetAudio,
+                 .search-jumper-searchBar:hover>.search-jumper-type.search-jumper-targetVideo,
+                 .search-jumper-searchBar:hover>.search-jumper-type.search-jumper-targetLink,
+                 .search-jumper-searchBar:hover>.search-jumper-type.search-jumper-targetPage,
+                 .search-jumper-searchBar.search-jumper-isTargetImg:hover>.search-jumper-type,
+                 .search-jumper-searchBar.search-jumper-isTargetAudio:hover>.search-jumper-type,
+                 .search-jumper-searchBar.search-jumper-isTargetVideo:hover>.search-jumper-type,
+                 .search-jumper-searchBar.search-jumper-isTargetLink:hover>.search-jumper-type {
+                     display: none;
+                 }
+                 #search-jumper.in-input .search-jumper-type:not(.search-jumper-hide) {
+                     width: auto!important;
+                     height: auto!important;
+                 }
+                 #search-jumper.in-input .sitelistCon>div:not(.input-hide)>a {
+                     display: flex!important;
+                 }
+                 #search-jumper.in-input .input-hide {
+                     display: none!important;
+                 }
+                 #search-jumper.in-input .search-jumper-type:not(.input-hide) {
+                     display: inline-flex!important;
+                     flex-wrap: nowrap!important;
+                 }
+                 #search-jumper.in-input .search-jumper-btn:not(.input-hide) {
+                     display: grid!important;
+                 }
+                 #search-jumper>.search-jumper-searchBar>.search-jumper-logo {
+                     display: inline-flex;
+                     background: unset;
+                     padding: 0px;
+                 }
+                 #search-jumper.funcKeyCall>.search-jumper-searchBar>.search-jumper-logo {
+                     display: none;
+                 }
+                 .search-jumper-searchBar>.search-jumper-type.search-jumper-targetAll,
+                 .search-jumper-searchBar:hover>.search-jumper-type.search-jumper-targetAll {
+                     display: inline-flex;
+                 }
+                 .search-jumper-isInPage>.search-jumper-type.search-jumper-needInPage,
+                 .search-jumper-isTargetImg>.search-jumper-type.search-jumper-targetImg,
+                 .search-jumper-isTargetAudio>.search-jumper-type.search-jumper-targetAudio,
+                 .search-jumper-isTargetVideo>.search-jumper-type.search-jumper-targetVideo,
+                 .search-jumper-isTargetLink>.search-jumper-type.search-jumper-targetLink,
+                 .search-jumper-isTargetPage>.search-jumper-type,
+                 .search-jumper-searchBar.search-jumper-isInPage:hover>.search-jumper-type.search-jumper-needInPage,
+                 .search-jumper-searchBar.search-jumper-isTargetImg:hover>.search-jumper-type.search-jumper-targetImg,
+                 .search-jumper-searchBar.search-jumper-isTargetAudio:hover>.search-jumper-type.search-jumper-targetAudio,
+                 .search-jumper-searchBar.search-jumper-isTargetVideo:hover>.search-jumper-type.search-jumper-targetVideo,
+                 .search-jumper-searchBar.search-jumper-isTargetLink:hover>.search-jumper-type.search-jumper-targetLink,
+                 .search-jumper-searchBar.search-jumper-isTargetPage:hover>.search-jumper-type {
+                     display: inline-flex;
+                 }
+                 .search-jumper-type,
+                 .search-jumper-logo {
+                     display: inline-flex;
+                     box-sizing: border-box;
+                     background: #d0d0d0;
+                     border-radius: 18px!important;
+                     overflow: hidden;
+                     padding: 0.2px;
+                     height: 36px;
+                     width: 36px;
+                     max-height: 36px;
+                     min-height: 36px;
+                     min-width: 36px;
+                     transition:width 250ms ease, height 250ms;
+                 }
+                 .search-jumper-right>.searchJumperNavBar {
+                     right: unset;
+                     left: 0;
+                 }
+                 .search-jumper-right>.searchJumperNavBar>#navMarks>div.navPointer {
+                     right: unset;
+                     left: 20px;
+                     transform: rotate(180deg);
+                 }
+                 .search-jumper-bottom>.search-jumper-input {
+                     bottom: unset;
+                     top: 5%;
+                 }
+                 .search-jumper-type.not-expand>a:nth-of-type(10)~a {
+                     display: none;
+                 }
+                 #search-jumper .sitelist {
+                     position: fixed;
+                     text-align: left;
+                     background: #00000000;
+                     max-height: 100vh;
+                     overflow: scroll;
+                     border: 0;
+                     pointer-events: none;
+                     opacity: 0;
+                     transition:opacity 0.25s ease;
+                     scrollbar-width: none;
+                     box-sizing: content-box;
+                 }
+                 #search-jumper .search-jumper-type:hover>.sitelist {
+                     pointer-events: all;
+                     opacity: 1;
+                 }
+                 #search-jumper .sitelist>.sitelistCon {
+                     margin: 10px;
+                     border-radius: 10px;
+                     box-shadow: 0px 0px 10px 0px #7a7a7a;
+                     padding: 0 0 10px 0;
+                     background: white;
+                     opacity: 1;
+                     border: 0;
+                 }
+                 #search-jumper .sitelist>.sitelistCon:hover {
+                     opacity: 1;
+                 }
+                 #search-jumper .sitelist::-webkit-scrollbar {
+                     width: 0 !important;
+                     height: 0 !important;
+                 }
+                 #search-jumper .sitelist>.sitelistCon>div {
+                     padding: 0 10px;
+                 }
+                 #search-jumper .sitelist>.sitelistCon>div:hover {
+                     background: #f5f7fa;
+                 }
+                 #search-jumper .sitelist a {
+                     display: flex;
+                     align-items: center;
+                     text-decoration: none;
+                     cursor: pointer;
+                 }
+                 #search-jumper .sitelist a>img {
+                     width: 20px;
+                     height: 20px;
+                     margin-right: 10px;
+                     margin-top: unset;
+                     max-width: unset;
+                 }
+                 #search-jumper .sitelist a>p {
+                     display: inline-block;
+                     font-size: 15px;
+                     font-family: Arial,sans-serif;
+                     line-height: 25px;
+                     margin: 5px auto;
+                     color: #6b6e74;
+                     flex: 1;
+                     text-align: left;
+                     white-space: nowrap;
+                 }
+                 #search-jumper .sitelist>.sitelistCon>p {
+                     color: #565656;
+                     margin: 0;
+                     text-align: center;
+                     font-size: 16px;
+                     font-family: Arial, sans-serif;
+                     font-weight: bold;
+                     background: #f6f6f6;
+                     border-radius: 10px 10px 0 0;
+                     overflow: hidden;
+                     white-space: nowrap;
+                     margin: 0 auto;
+                     text-overflow: ellipsis;
+                     padding: 3px 10px;
+                     position: sticky;
+                     top: 0;
+                     pointer-events: none;
+                 }
+                 .search-jumper-searchBar.disable-pointer>.search-jumper-type {
+                     pointer-events: none;
+                 }
+                 .search-jumper-word {
+                     background: black;
+                     color: #ffffff!important;
+                     font-family: Arial, sans-serif;
+                     font-weight: bold;
+                     border-radius: 18px!important;
+                     font-size: 13.5px;
+                     line-height: 28.8px;
+                     width: 28.8px;
+                     height: 28.8px;
+                     min-width: 28.8px;
+                     min-height: 28.8px;
+                     letter-spacing: 0px;
+                 }
+                 a.search-jumper-word {
+                     background: #f7f7f7d9;
+                     color: #111111!important;
+                     filter: drop-shadow(1px 1px 3px #00000060);
+                 }
+                 a.search-jumper-word>span {
+                     background: #f7f7f7d9;
+                     color: #111111!important;
+                     border-radius: 20px;
+                 }
+                 .search-jumper-word {
+                     text-shadow: unset;
+                 }
+                 .search-jumper-word:hover {
+                     text-shadow: 0px 0px 5px #d0d0d0;
+                 }
+                 .search-jumper-type img {
+                     width: 28.8px;
+                     height: 28.8px;
+                     margin-top: unset;
+                 }
+                 .funcKeyCall>.search-jumper-tips {
+                     position: absolute;
+                 }
+                 .search-jumper-tips {
+                     z-index: 2147483647;
+                     pointer-events: none;
+                     position: fixed;
+                     font-size: xx-large;
+                     background: #f5f5f5e0;
+                     border-radius: 10px!important;
+                     padding: 5px;
+                     box-shadow: 0px 0px 10px 0px #000;
+                     font-weight: bold;
+                     transition: all 0.2s ease;
+                     color: black;
+                     white-space: nowrap;
+                     line-height: 35px;
+                 }
+                 .search-jumper-searchBar>.search-jumper-type.search-jumper-hide {
+                     background: unset;
+                     padding: 0px;
+                     
+                 }
+                 .search-jumper-searchBar:hover>.search-jumper-hide {
+                     
+                 }
+                 .funcKeyCall>.search-jumper-searchBar>.search-jumper-type.search-jumper-hide {
+                     display: none;
+                 }
+                 .funcKeyCall>.search-jumper-searchBar:hover>.search-jumper-hide {
+                     display: none;
+                 }
+                 span.search-jumper-word>img {
+                     width: 18px;
+                     height: 18px;
+                     margin: auto;
+                 }
+                 .search-jumper-searchBar .search-jumper-btn.search-jumper-word:hover {
+                     background: black;
+                 }
+                 .search-jumper-searchBar a.search-jumper-btn.search-jumper-word:hover {
+                     background: white;
+                 }
+                 .search-jumper-btn:hover {
+                     -webkit-transform:scale(1.2);
+                     -moz-transform:scale(1.2);
+                     transform:scale(1.2);
+                     color: white;
+                     text-decoration:none;
+                     filter: drop-shadow(1px 1px 3px #00000050);
+                 }
+                 .search-jumper-btn:active {
+                     -webkit-transform:scale(1.1);
+                     -moz-transform:scale(1.1);
+                     transform:scale(1.1);
+                     transition:unset;
+                     filter: drop-shadow(1px 1px 5px #000000a0);
+                 }
+                 .search-jumper-searchBar .search-jumper-btn.current {
+                     overflow: visible;
+                 }
+                 .search-jumper-searchBar .search-jumper-btn.current::before {
+                     content: '';
+                     position: absolute;
+                     right: -2px;
+                     top: -2px;
+                     border: 1px solid #00000099;
+                     display: inline-block;
+                     width: 10px;
+                     height: 10px;
+                     border-radius: 50%;
+                     background: white;
+                     box-shadow: 0px 0px 3px 0px rgb(0 0 0 / 80%);
+                     opacity: 0.8;
+                 }
+                 .in-input .search-jumper-input {
+                     display: block;
+                     box-sizing: content-box;
+                 }
+                 .lock-input .search-jumper-lock-input {
+                     float: left;
+                     font-size: 20px;
+                     top: 14px;
+                     left: 25px;
+                     color: darkgrey;
+                     position: absolute;
+                     border-right: 2px solid #32373a;
+                     padding-right: 10px;
+                     display: block;
+                 }
+                 .search-jumper-input {
+                     width: 80%;
+                     min-width: 500px;
+                     bottom: 3%;
+                     left: 50%;
+                     margin: 0 0 0 -40%;
+                     position: fixed;
+                     font-family: sans-serif;
+                     background: #F1F1F1;
+                     text-align: left;
+                     box-shadow: 0px 2px 10px rgb(0 0 0 / 80%);
+                     border: 1px solid rgb(179 179 179 / 70%);
+                     border-radius: 28px;
+                     background-color: rgb(51 56 59 / 90%);
+                     padding: 10px;
+                     display: none;
+                     z-index: 2139999999;
+                     font-size: 20px;
+                     height: 36px;
+                     touch-action: none;
+                 }
+                 .inputGroup {
+                     cursor: grab;
+                     display: flex;
+                 }
+                 .inputGroup * {
+                     cursor: default;
+                 }
+                 .search-jumper-input input {
+                     background-color: #212022;
+                     color: white;
+                     border: none;
+                     font-size: 20px;
+                     height: 35px;
+                     margin-bottom: 0;
+                     padding: 5px;
+                     margin: 0 10px;
+                     border-radius: 3px;
+                     box-shadow: #333 0px 0px 2px;
+                     width: calc(100% - 20px);
+                     outline: none;
+                     box-sizing: border-box;
+                     cursor: text;
+                 }
+                 #searchJumperInput,
+                 #searchJumperInputKeyWords {
+                     width: calc(50% - 11px);
+                     float: left;
+                     transition: 0.25s width ease;
+                 }
+                 #searchJumperInput {
+                     margin: 0 1px 0 10px;
+                 }
+                 #searchJumperInputKeyWords {
+                     margin: 0 10px 0 1px;
+                 }
+                 #filterSites>input:focus {
+                     width: calc(200% - 20px);
+                 }
+                 .search-jumper-input * {
+                     box-sizing: border-box;
+                 }
+                 .search-jumper-input input[type="radio"] {
+                     display: none;
+                 }
+                 .search-jumper-input input:checked + label {
+                     background: #3a444add;
+                     color: white;
+                     font-size: 18px;
+                 }
+                 .search-jumper-input input#filterSitesTab:checked ~ .line {
+                     left: 25px;
+                 }
+                 .search-jumper-input input#filterSitesTab:checked ~ .content-container #filterSites {
+                     opacity: 1;
+                     pointer-events: all;
+                 }
+                 .search-jumper-input input#searchInPageTab:checked ~ .line {
+                     left: 231px;
+                 }
+                 .search-jumper-input input#searchInPageTab:checked ~ .content-container #searchInPage {
+                     opacity: 1;
+                     pointer-events: all;
+                 }
+                 .search-jumper-input label {
+                     display: inline-block;
+                     font-size: 18px;
+                     height: 36px;
+                     line-height: 36px;
+                     width: 200px;
+                     text-align: center;
+                     background: #2a343acc;
+                     color: #959595;
+                     position: relative;
+                     transition: 0.25s background ease;
+                     cursor: pointer;
+                     position: relative;
+                     top: -46px;
+                     left: 15px;
+                     border-radius: 5px 5px 0 0;
+                     user-select: none;
+                     pointer-events: all;
+                     max-width: 40%;
+                     white-space: nowrap;
+                     overflow: hidden;
+                     text-overflow: ellipsis;
+                 }
+                 .search-jumper-input label::after {
+                     content: "";
+                     height: 1px;
+                     width: 100%;
+                     position: absolute;
+                     display: block;
+                     background: #ccc;
+                     bottom: 0;
+                     opacity: 0;
+                     left: 0;
+                     transition: 0.25s ease;
+                 }
+                 .search-jumper-input label:hover::after {
+                     opacity: 1;
+                 }
+                 .search-jumper-input .line {
+                     background: #1E88E5;
+                     width: 200px;
+                     height: 1px;
+                     top: -1px;
+                     left: 0;
+                     transition: 0.25s ease;
+                     position: absolute;
+                 }
+                 .inputGroup>.svgBtns {
+                     right: 25px;
+                     top: 15px;
+                     position: absolute;
+                     user-select: none;
+                     background: rgb(0 0 0 / 50%);
+                     white-space: nowrap;
+                     overflow: hidden;
+                 }
+                 .inputGroup>.svgBtns:hover {
+                     width: auto;
+                 }
+                 .inputGroup svg.checked {
+                     fill: #1E88E5;
+                 }
+                 @media screen and (max-width: 800px) {
+                     .search-jumper-input .line {
+                         display: none;
+                     }
+                     .search-jumper-input {
+                         min-width: 300px;
+                     }
+                     .inputGroup>.svgBtns {
+                         width: 25px;
+                     }
+                 }
+                 .search-jumper-input .content-container {
+                     background: #eee;
+                     position: static;
+                     font-size: 16px;
+                 }
+                 .search-jumper-input .content-container .inputGroup {
+                     position: absolute;
+                     padding: 10px;
+                     width: 100%;
+                     top: 0;
+                     left: 0;
+                     opacity: 0;
+                     pointer-events: none;
+                     transition: 0.25s ease;
+                     color: #333;
+                 }
+                 .search-jumper-input svg,
+                 .searchJumperNavBar svg {
+                     width: 25px;
+                     height: 25px;
+                     fill: white;
+                     cursor: pointer;
+                     opacity: 0.8;
+                     transition: 0.25s all ease;
+                     font-size: 0px;
+                 }
+                 .search-jumper-input .inputGroup:hover svg,
+                 .searchJumperNavBar.show svg {
+                     pointer-events: all;
+                 }
+                 .search-jumper-input svg *,
+                 .searchJumperNavBar svg * {
+                     cursor: pointer;
+                 }
+                 .search-jumper-input svg:hover,
+                 .searchJumperNavBar svg:hover {
+                     -webkit-transform:scale(1.2);
+                     -moz-transform:scale(1.2);
+                     transform:scale(1.2);
+                     opacity: 1;
+                 }
+                 #search-jumper.selectedEle #filterSites>.svgBtns>svg {
+                     display: inline-block!important;
+                 }
+                 .search-jumper-input>.closeBtn {
+                     position: absolute;
+                     right: 0px;
+                     top: -39px;
+                     width: 35px;
+                     height: 35px;
+                     vertical-align: middle;
+                     fill: #454a4b;
+                     overflow: hidden;
+                     background: white;
+                     border-radius: 20px;
+                     pointer-events: all;
+                 }
+                 #searchInPage>.lockWords {
+                     max-width: 50%;
+                     position: absolute;
+                     bottom: 8px;
+                     left: 20px;
+                     color: white;
+                     font-size: 18px;
+                     display: flex;
+                     flex-wrap: wrap-reverse;
+                     max-height: 38px;
+                     overflow: hidden;
+                 }
+                 #searchInPage>.lockWords:hover {
+                     overflow-y: auto;
+                     height: auto;
+                     max-height: 90vh;
+                 }
+                 #searchInPage>.lockWords>span {
+                     position: relative;
+                     padding: 5px;
+                     cursor: alias;
+                     user-select: none;
+                     background: yellow;
+                     color: black;
+                     border: 1px solid;
+                     margin: 2px;
+                     display: flex;
+                     align-items: center;
+                     white-space: nowrap;
+                     max-width: 100%;
+                 }
+                 #searchInPage>.lockWords .removeWord {
+                     position: absolute;
+                     right: 0;
+                     top: 0;
+                     display: none;
+                     opacity: 0.3;
+                 }
+                 #searchInPage>.lockWords .removeWord:hover {
+                     opacity: 1;
+                 }
+                 #searchInPage>.lockWords>span:hover .removeWord {
+                     display: block;
+                     pointer-events: all;
+                 }
+                 #searchInPage>.lockWords .removeWord>svg {
+                     width: 15px;
+                     height: 15px;
+                     fill: black;
+                     color: black;
+                     border: 1px solid white;
+                     border-radius: 10px;
+                     background: white;
+                 }
+                 #searchInPage>.lockWords>span>em {
+                     font-size: 12px;
+                     margin-right: 5px;
+                     color: unset;
+                 }
+                 .searchJumperNavBar {
+                     all: unset;
+                     top: 0px;
+                     bottom: 0px;
+                     right: 0px;
+                     position: fixed;
+                     width: 20px;
+                     z-index: 2147483647;
+                     background: #00000066;
+                     text-align: center;
+                     pointer-events: none;
+                     font-size: 0px;
+                     opacity: 0;
+                 }
+                 .searchJumperNavBar.show {
+                     pointer-events: all;
+                     opacity: 1;
+                 }
+                 .searchJumperNavBar>.closeNavBtn {
+                     width: 16px;
+                     height: 16px;
+                     fill: white;
+                     cursor: pointer;
+                 }
+                 #navMarks>div.navPointer {
+                     pointer-events: none;
+                     position: absolute;
+                     right: 20px;
+                     text-shadow: #fff 1px 0 0, #fff 0 1px 0, #fff -1px 0 0, #fff 0 -1px 0;
+                     font-size: 30px;
+                     line-height: 0px;
+                     border: 0;
+                     margin-top: 2px;
+                     opacity: 0.8;
+                     color: black;
+                 }
+                 #navMarks {
+                     height: 100%;
+                     width: 100%;
+                     position: absolute;
+                 }
+                 #navMarks>span {
+                     height: 0.5vh;
+                     width: 100%;
+                     position: absolute;
+                     border: 1px solid #beb7b7;
+                     min-height: 3px;
+                     box-sizing: border-box;
+                     left: 0;
+                     border-radius: 0px!important;
+                 }
+                 mark.searchJumper {
+                     visibility: visible;
+                     font-style: normal;
+                     box-shadow: rgba(0, 0, 0, 0.3) 1px 1px 3px;
+                     border-radius: 3px;
+                     text-decoration: none;
+                     padding: 1px 0;
+                 }
+                 mark.searchJumper[data-current=true] {
+                     border-bottom: 0.2em solid;
+                     border-bottom-left-radius: 0;
+                     border-bottom-right-radius: 0;
+                     animation: 0.5s linear 0s 5 normal none running currentMark;
+                 }
+                 .searchJumperPosBar {
+                     background: rgba(29, 93, 163, 0.3);
+                     position: absolute;
+                     min-height: 10px;
+                     min-width: 10px;
+                     animation-duration: 3s;
+                     z-index: 2147483647;
+                     margin: 0;
+                     opacity: 0;
+                     pointer-events: none;
+                     transition: 0.25s all ease;
+                 }
+                 .searchJumperPosBar.searchJumperPosW {
+                     width: 100%;
+                     left: 0;
+                 }
+                 .searchJumperPosBar.searchJumperPosH {
+                     height: 100%;
+                     top: 0;
+                     position: fixed;
+                 }
+                 @keyframes fadeit {
+                     from {opacity: 1;}
+                     to {opacity: 0;}
+                 }
+                 @keyframes currentMark {
+                     from {border-color: unset}
+                     to {border-color: transparent;}
+                 }
+                 #rightSizeChange {
+                     top: 0;
+                     opacity: 0;
+                     height: 55px;
+                     width: 5px;
+                     position: absolute;
+                     cursor: e-resize;
+                     right: 0;
+                 }
+                 .searchJumper-hide {
+                     display: none!important;
+                 }
+                 @media (prefers-color-scheme: dark) {
+                     /* 站点列表 */
+                     #search-jumper .sitelist > .sitelistCon > p {
+                         background-color: #252B32 !important;
+                     }
+
+                     #search-jumper .sitelist > .sitelistCon {
+                         background-color: #1C2127 !important;
+                     }
+
+                     #search-jumper .sitelist > .sitelistCon > div:hover {
+                         background-color: #283C57 !important;
+                     }
+
+                     #search-jumper .sitelist > .sitelistCon > p,
+                     #search-jumper .sitelist a > p {
+                         color: #DADADA !important;
+                     }
+
+                     /* 历史列表 */
+                     .search-jumper-historylist {
+                         background-color: #181C20 !important;
+                     }
+
+                     .search-jumper-showall a.search-jumper-word,
+                     .search-jumper-showall a.search-jumper-word > span {
+                         background-color: #292A2D !important;
+                     }
+
+                     .search-jumper-tips {
+                         background-color: #3F4042 !important;
+                     }
+
+                     .search-jumper-showall a.search-jumper-word > span,
+                     .search-jumper-tips {
+                         color: #DADADA !important;
+                     }
+
+                     .search-jumper-showall .search-jumper-word:hover {
+                         text-shadow: 0px 0px 5px #2374FF !important;
+                     }
+
+                     /* 类别 */
+                     .search-jumper-showall .search-jumper-type,
+                     .search-jumper-showall .search-jumper-logo {
+                         background-color: #181C20 !important;
+                     }
+                 }
+                 </style><style id="ldqyjv6f.61p">
+         .pagetual_pageBar{
+           -moz-transition:opacity 0.3s ease-in-out 0s;
+           -webkit-transition:opacity 0.3s ease-in-out 0s;
+           transition:opacity 0.3s ease-in-out 0s;
+           font-family: Arial,sans-serif !important;
+         }
+         .pagetual_pageBar.stop {
+           -webkit-filter: invert(100%);
+           filter: invert(100%);
+           opacity: 1!important;
+         }
+         .pagetual_pageBar.hide {
+           display: none!important;
+         }
+         .pagetual_pageBar:hover {
+           opacity: 1!important;
+         }
+         .pagetual_pageBar span {
+           vertical-align: super;
+         }
+         .pagetual_pageBar a::before,
+         .pagetual_pageBar a::after {
+           content: none;
+         }
+         .pagetual_pageBar a>span {
+           margin-top: 0!important;
+           pointer-events: none;
+           padding: unset;
+           opacity: 0;
+           -moz-transition:all 0.3s ease-in-out 0s;
+           -webkit-transition:all 0.3s ease-in-out 0s;
+           transition:all 0.3s ease-in-out 0s;
+         }
+         .pagetual_pageBar a>span:hover {
+           color: red;
+         }
+         .pagetual_pageBar a:hover>span {
+           opacity: 1;
+         }
+         .pagetual_pageBar span.prevScreen,
+         .pagetual_pageBar span.nextScreen {
+           display: block!important;
+         }
+         .pagetual_pageBar a:hover>span.prevScreen {
+           margin-top: -30px!important;
+           pointer-events: all;
+         }
+         .pagetual_pageBar a:hover>span.nextScreen {
+           margin-top: 30px!important;
+           pointer-events: all;
+         }
+         .pagetual_pageBar span>svg {
+           -moz-transition:transform 0.5s ease, opacity 0.3s ease;
+           -webkit-transition:transform 0.5s ease, opacity 0.3s ease;
+           transition:transform 0.5 ease, opacity 0.3s ease;
+           opacity: 0;
+         }
+         .pagetual_pageBar:hover span>svg {
+           opacity: 1;
+         }
+         .pagetual_pageBar span>svg.upSvg:hover {
+           transform: rotate(360deg) scale3d(1.2, 1.2, 1.2);
+         }
+         .pagetual_pageBar span>svg.downSvg:hover {
+           transform: rotate(540deg) scale3d(1.2, 1.2, 1.2)!important;
+         }
+         .pagetual_pageBar .pagetual_pageNum{
+           color: #55555f;
+         }
+         .pagetual_pageBar .pagetual_pageNum:hover{
+           color: #ff6464;
+         }
+         .pagetual_tipsWords{
+           font-size: 50px;
+           font-weight: bold;
+           font-family: "黑体", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+             "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+             "Segoe UI Emoji", "Segoe UI Symbol";
+           color: #ffffff;
+           min-height: 70px;
+           max-width: 80%;
+           line-height: 70px;
+           position: fixed;
+           left: 50%;
+           top: 10%;
+           margin-left: -99999px;
+           padding: 0 15px;
+           z-index: 999999999;
+           background-color: #000;
+           border: 1px solid #303030;
+           border-radius: 10px;
+           opacity: 0;
+           filter: alpha(opacity=65);
+           box-shadow: 5px 5px 20px 0px #000;
+           -moz-transition:opacity 0.3s ease-in-out 0s;
+           -webkit-transition:opacity 0.3s ease-in-out 0s;
+           transition:opacity 0.3s ease-in-out 0s;
+           pointer-events: none;
+         }
+         .pagetual_loading {
+           width: 50px;
+           height: 50px;
+           margin: 10px auto;
+           border-radius: 100%;
+           display: flex;
+           -webkit-animation: pagetual_loading_scaleout 1.0s infinite ease-in-out;
+           animation: pagetual_loading_scaleout 1.0s infinite ease-in-out;
+         }
+         @-webkit-keyframes pagetual_loading_scaleout {
+           0% { -webkit-transform: scale(0.0) }
+           100% {
+             -webkit-transform: scale(1.0);
+             opacity: 0;
+           }
+         }
+         @keyframes pagetual_loading_scaleout {
+           0% {
+             transform: scale(0.0);
+             -webkit-transform: scale(0.0);
+           } 100% {
+           transform: scale(1.0);
+             -webkit-transform: scale(1.0);
+             opacity: 0;
+           }
+         }
+         .pagetual_loading_text {
+           white-space: nowrap;
+           -webkit-animation: pagetual_loading_opacity 2.6s infinite ease-in-out;
+           animation: pagetual_loading_opacity 2.6s infinite ease-in-out;
+         }
+         @-webkit-keyframes pagetual_loading_opacity {
+           0% { opacity: 1 }
+           50% { opacity: 0.2 }
+           100% { opacity: 1 }
+         }
+         @keyframes pagetual_loading_opacity {
+           0% { opacity: 1 }
+           50% { opacity: 0.2 }
+           100% { opacity: 1 }
+         }
+        </style><style type="text/css">.amap-container{cursor:url(https://webapi.amap.com/theme/v1.3/openhand.cur),default;}.amap-drag{cursor:url(https://webapi.amap.com/theme/v1.3/closedhand.cur),default;}</style></head> 
+ <body> 
+  <!--加载动画-->
+  <!--<script src="js/loading.js"></script>-->
+  <div id="menu">
+   <i></i>
+  </div> 
+  <div class="list closed"> 
+   <ul>
+    <div style="text-align: center"><br>今日诗词:<br>
+    <span id="jinrishici-sentence">昔闻洞庭水，今上岳阳楼。</span>
+    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+    </div>
+    <li class="title"><i class="iconfont icon-huo"></i> 常用</li>
+    <li><a rel="nofollow" href="https://qrsnapper.com/" target="_blank"><i class="iconfont icon-saoma2" style="color: #00bcff;"></i>二维码</a></li> 
+    <li><a rel="nofollow" href="https://search.chongbuluo.com/" target="_blank"><i class="iconfont icon-sousuo" style="color:#00bcff;"></i>快搜</a></li>
+    <li><a rel="nofollow" href="https://convertio.co/zh/" target="_blank"><i class="iconfont icon-zhuanhuan" style="color:#00bcff;"></i>转换</a></li> 
+    <li><a rel="nofollow" href="https://yunduanxin.net/" target="_blank"><i class="iconfont icon-sms" style="color: #00bcff;"></i>云短信</a></li> 
+    <li><a rel="nofollow" href="https://www.linshi-email.com/" target="_blank"><i class="iconfont icon-youxiang" style="color: #00bcff;"></i>临时邮箱</a></li> 
+    <li><a rel="nofollow" href="https://cp.anyknew.com/" target="_blank"><i class="iconfont icon-tuzi" style="color: #00bcff;"></i>拷贝兔</a></li>
+    <!----> 
+    <li class="title"><i class="iconfont icon-shenghuo"></i> 生活</li> 
+    <li><a rel="nofollow" href="https://www.taobao.com/" target="_blank"><i class="iconfont icon-taobao" style="color:#00bcff;"></i>淘宝</a></li>
+    <li><a rel="nofollow" href="https://www.jd.com/" target="_blank"><i class="iconfont icon-jingdong" style="color: #00bcff;"></i>京东</a></li> 
+    <li><a rel="nofollow" href="http://www.dangdang.com/" target="_blank"><i class="iconfont icon-dangdang" style="color: #00bcff;"></i>当当</a></li>
+    <li><a rel="nofollow" href="http://you.163.com/" target="_blank"><i class="iconfont icon-yanxuan" style="color: #00bcff;"></i>网易严选</a></li>
+    <li><a rel="nofollow" href="http://www.shihuo.cn/" target="_blank"><i class="iconfont icon-shihuo" style="color: #00bcff;"></i>虎扑识货</a></li>
+    <li><a rel="nofollow" href="http://www.bookschina.com/" target="_blank"><i class="iconfont icon-tushuguan" style="color: #00bcff;"></i>中国图书</a></li>
+    <li><a rel="nofollow" href="http://nrplg.yhzu.cn/" target="_blank"><i class="iconfont icon-youhui" style="color: #00bcff;"></i>优惠券</a></li>
+    <li><a rel="nofollow" href="https://www.smzdm.com/" target="_blank"><i class="iconfont icon-shimozhidemai" style="color: #00bcff;"></i>值得买</a></li> 
+    <li><a rel="nofollow" href="http://www.manmanbuy.com/" target="_blank"><i class="iconfont icon-man" style="color: #00bcff;"></i>慢慢买</a></li>
+    <li><a rel="nofollow" href="http://www.weather.com.cn/" target="_blank"><i class="iconfont icon-tianqi" style="color: #00bcff;"></i>天气</a></li> 
+    <li><a rel="nofollow" href="https://www.xiachufang.com/" target="_blank"><i class="iconfont icon-xiachufang" style="color: #00bcff;"></i>下厨房</a></li> 
+    <li><a rel="nofollow" href="https://www.mvyxws.com/" target="_blank"><i class="iconfont icon-yi1" style="color: #00bcff;"></i>医学微视</a></li>
+    <li><a rel="nofollow" href="https://www.ctrip.com/" target="_blank"><i class="iconfont icon-xiecheng" style="color: #00bcff;"></i>携程</a></li> 
+    <li><a rel="nofollow" href="https://www.12306.cn/index/" target="_blank"><i class="iconfont icon-12306" style="color: #00bcff;"></i>12306</a></li> 
+    <li><a rel="nofollow" href="https://www.kuaidi100.com" target="_blank"><i class="iconfont icon-express" style="color: #00bcff;"></i>快递100</a></li> 
+    <li><a rel="nofollow" href="https://map.baidu.com/" target="_blank"><i class="iconfont icon-baiduditu" style="color: #00bcff;"></i>百度地图</a></li> 
+    <li><a rel="nofollow" href="https://www.amap.com/" target="_blank"><i class="iconfont icon-gaodeditu" style="color: #00bcff;"></i>高德地图</a></li> 
+    <li><a rel="nofollow" href="https://www.google.com/maps/?hl=zh-cn" target="_blank"><i class="iconfont icon-gugeditu" style="color: #00bcff;"></i>谷歌地图</a></li> 
+    <!---->
+    <li class="title"><i class="iconfont icon-bangong"></i> 办公</li>
+    <li><a rel="nofollow" href="https://pan.baidu.com" target="_blank"><i class="iconfont icon-baiduyun" style="color: #00bcff;"></i>百度网盘</a></li> 
+    <li><a rel="nofollow" href="https://www.weiyun.com/" target="_blank"><i class="iconfont icon-tengxunyun" style="color: #00bcff;"></i>腾讯微云</a></li>
+    <li><a rel="nofollow" href="https://www.lanzou.com/" target="_blank"><i class="iconfont icon-yunpan" style="color: #00bcff;"></i>蓝奏云</a></li>
+    <li><a rel="nofollow" href="https://cowtransfer.com/" target="_blank"><i class="iconfont icon-niu" style="color: #00bcff;"></i>奶牛快传</a></li>
+    <li><a rel="nofollow" href="https://www.wenshushu.cn/" target="_blank"><i class="iconfont icon-wen" style="color: #00bcff;"></i>文叔叔</a></li>
+    <li><a rel="nofollow" href="https://www.jianguoyun.com/" target="_blank"><i class="iconfont icon-pandown" style="color: #00bcff;"></i>坚果云</a></li>
+    <li><a rel="nofollow" href="https://mail.google.com/mail/u/0/#inbox" target="_blank"><i class="iconfont icon-gmail" style="color: #00bcff;"></i>Gmail</a></li>  
+    <li><a rel="nofollow" href="https://mail.163.com/" target="_blank"><i class="iconfont icon-wangyi1" style="color: #00bcff;"></i>网易邮箱</a></li>  
+    <li><a rel="nofollow" href="https://mail.qq.com/" target="_blank"><i class="iconfont icon-qq" style="color: #00bcff;"></i>QQ邮箱</a></li> 
+    <li><a rel="nofollow" href="https://translate.google.cn/" target="_blank"><i class="iconfont icon-Googlefanyi" style="color: #00bcff;"></i>谷歌翻译</a></li>
+    <li><a rel="nofollow" href="http://fanyi.baidu.com/" target="_blank"><i class="iconfont icon-baidufanyi" style="color: #00bcff;"></i>百度翻译</a></li>
+    <li><a rel="nofollow" href="http://fanyi.youdao.com/" target="_blank"><i class="iconfont icon-youdaocidian" style="color: #00bcff;"></i>有道翻译</a></li>
+    <li><a rel="nofollow" href="https://docs.qq.com/desktop" target="_blank"><i class="iconfont icon-wendang" style="color: #00bcff;"></i>腾讯文档</a></li>
+    <li><a rel="nofollow" href="https://docs.wps.cn/" target="_blank"><i class="iconfont icon-wps" style="color: #00bcff;"></i>金山文档</a></li>
+    <li><a rel="nofollow" href="https://tower.im/" target="_blank"><i class="iconfont icon-pandown" style="color: #00bcff;"></i>Tower</a></li>
+    <li><a rel="nofollow" href="https://www.yinxiang.com/" target="_blank"><i class="iconfont icon-yinxiangbiji1" style="color: #00bcff;"></i>印象笔记</a></li>
+    <li><a rel="nofollow" href="http://naotu.baidu.com/" target="_blank"><i class="iconfont icon-naotu" style="color: #00bcff;"></i>百度脑图</a></li>
+    <li><a rel="nofollow" href="https://www.yuque.com/" target="_blank"><i class="iconfont icon-yuque-fill" style="color: #00bcff;"></i>阿里语雀</a></li>  
+    <!----> 
+    <li class="title"><i class="iconfont icon-shejiao1"></i> 社区</li> 
+    <li><a rel="nofollow" href="https://www.zhihu.com/" target="_blank"><i class="iconfont icon-zhihu" style="color: #00bcff;"></i>知乎</a></li> 
+    <li><a rel="nofollow" href="https://www.douban.com/" target="_blank"><i class="iconfont icon-douban" style="color: #00bcff;"></i>豆瓣</a></li>
+    <li><a rel="nofollow" href="https://www.weibo.com" target="_blank"><i class="iconfont icon-weibo" style="color: #00bcff;"></i>微博</a></li>
+    <li><a rel="nofollow" href="https://tieba.baidu.com/" target="_blank"><i class="iconfont icon-baidu" style="color: #00bcff;"></i>贴吧</a></li> 
+    <li><a rel="nofollow" href="https://www.jianshu.com/" target="_blank"><i class="iconfont icon-jian" style="color: #00bcff;"></i>简书</a></li> 
+    <li><a rel="nofollow" href="https://segmentfault.com/" target="_blank"><i class="iconfont icon-sf" style="color:#00bcff;"></i>思否</a></li> 
+    <li><a rel="nofollow" href="https://www.csdn.net/" target="_blank"><i class="iconfont icon-csdn" style="color: #00bcff;"></i>CSDN</a></li> 
+    <li><a rel="nofollow" href="https://www.v2ex.com/" target="_blank"><i class="iconfont icon-vex" style="color: #00bcff;"></i>V2EX</a></li>
+    <li><a rel="nofollow" href="https://www.oschina.net/" target="_blank"><i class="iconfont icon-kaiyuanzhongguoshequ" style="color: #00bcff;"></i>开源中国</a></li>
+    <li><a rel="nofollow" href="https://www.guyuehome.com/" target="_blank"><i class="iconfont icon-csdn" style="color: #00bcff;"></i>古月居</a></li>
+    <li><a rel="nofollow" href="https://www.stmcu.org.cn/" target="_blank"><i class="iconfont icon-csdn" style="color: #00bcff;"></i>STMCU</a></li>
+    <li><a rel="nofollow" href="http://www.openedv.com/" target="_blank"><i class="iconfont icon-csdn" style="color: #00bcff;"></i>openedv</a></li>
+    <!----> 
+    <li class="title"><i class="iconfont icon-shipin"></i> 影音</li>  
+    <li><a rel="nofollow" href="https://v.qq.com/" target="_blank"><i class="iconfont icon-tengxun" style="color: #00bcff;"></i>腾讯视频</a></li> 
+    <li><a rel="nofollow" href="https://www.youku.com/" target="_blank"><i class="iconfont icon-youku" style="color: #00bcff;"></i>优酷</a></li> 
+    <li><a rel="nofollow" href="https://www.iqiyi.com/" target="_blank"><i class="iconfont icon-aiqiyi" style="color: #00bcff;"></i>爱奇艺</a></li>   
+    <li><a rel="nofollow" href="https://www.bilibili.com/" target="_blank"><i class="iconfont icon-bili" style="color: #00bcff;"></i>哔哩哔哩</a></li> 
+    <li><a rel="nofollow" href="https://www.vmovier.com/" target="_blank"><i class="iconfont icon-tengxun" style="color: #00bcff;"></i>场库</a></li>
+    <li><a rel="nofollow" href="https://home.eyepetizer.net/video/video-list" target="_blank"><i class="iconfont icon-eye" style="color: #00bcff;"></i>开眼</a></li>
+    <li><a rel="nofollow" href="https://www.movieffm.net/" target="_blank"><i class="iconfont icon-yingshi2" style="color: #00bcff;"></i>线上看</a></li>
+    <li><a rel="nofollow" href="https://www.yunbtv.com/" target="_blank"><i class="iconfont icon-dianying" style="color: #00bcff;"></i>云播TV</a></li>
+    <li><a rel="nofollow" href="https://ddrk.me/" target="_blank"><i class="iconfont icon-dianying1" style="color: #00bcff;"></i>低端影视</a></li>
+    <li><a rel="nofollow" href="https://tv.cctv.com/index.shtml" target="_blank"><i class="iconfont icon-yangshi" style="color: #00bcff;"></i>央视直播</a></li>
+    <li><a rel="nofollow" href="http://www.hd181.com/index.html" target="_blank"><i class="iconfont icon-tv" style="color: #00bcff;"></i>电视直播</a></li>
+    <li><a rel="nofollow" href="https://www.douyu.com/" target="_blank"><i class="iconfont icon-douyu" style="color: #00bcff;"></i>斗鱼直播</a></li>
+    <li><a rel="nofollow" href="http://music.163.com/" target="_blank"><i class="iconfont icon-wangyiyunyinle" style="color: #00bcff;"></i>网易云</a></li>
+    <li><a rel="nofollow" href="https://y.qq.com/" target="_blank"><i class="iconfont icon-qqmusic" style="color: #00bcff;"></i>QQ音乐</a></li>
+    <li><a rel="nofollow" href="http://www.gequdaquan.net" target="_blank"><i class="iconfont icon-yinle" style="color: #00bcff;"></i>歌曲大全</a></li>
+    <li><a rel="nofollow" href="https://douban.fm/" target="_blank"><i class="iconfont icon-doubanFM" style="color: #00bcff;"></i>豆瓣FM</a></li>
+    <li><a rel="nofollow" href="https://www.ximalaya.com/" target="_blank"><i class="iconfont icon-ximalaya" style="color: #00bcff;"></i>喜马拉雅</a></li>
+    <li><a rel="nofollow" href="https://tingfm.com" target="_blank"><i class="iconfont icon-fm" style="color: #00bcff;"></i>TingFM</a></li>
+    <!----> 
+    <li class="title"><i class="iconfont icon-yuedu"></i> 阅读</li>
+    <li><a rel="nofollow" href="https://tophub.today/" target="_blank"><i class="iconfont icon-Today" style="color: #00bcff;"></i>今日热榜</a></li>
+    <li><a rel="nofollow" href="https://36kr.com/" target="_blank"><i class="iconfont icon-kr" style="color: #00bcff;"></i>36Kr</a></li>
+    <li><a rel="nofollow" href="https://www.ifanr.com/" target="_blank"><i class="iconfont icon-ai" style="color: #00bcff;"></i>爱范儿</a></li>
+    <li><a rel="nofollow" href="https://www.igao7.com/" target="_blank"><i class="iconfont icon-gao" style="color: #00bcff;"></i>爱搞机</a></li>
+    <li><a rel="nofollow" href="http://zhihudaily.me/" target="_blank"><i class="iconfont icon-zhihu1" style="color: #00bcff;"></i>知乎日报</a></li>
+    <li><a rel="nofollow" href="http://www.qdaily.com/" target="_blank"><i class="iconfont icon-haoqixin" style="color: #00bcff;"></i>好奇心</a></li>
+    <li><a rel="nofollow" href="http://www.nfpeople.com/" target="_blank"><i class="iconfont icon-renwu" style="color: #00bcff;"></i>人物周刊</a></li>
+    <li><a rel="nofollow" href="http://www.lifeweek.com.cn/" target="_blank"><i class="iconfont icon-sanlian" style="color: #00bcff;"></i>生活周刊</a></li>
+    <li><a rel="nofollow" href="https://www.yeduk.com" target="_blank"><i class="iconfont icon-tushu" style="color: #00bcff;"></i>夜读客</a></li>
+    <li><a rel="nofollow" href="http://shuxiangjia.cn/" target="_blank"><i class="iconfont icon-shu" style="color: #00bcff;"></i>书享家</a></li>
+    <li><a rel="nofollow" href="https://www.dzssj.com/" target="_blank"><i class="iconfont icon-tushu" style="color: #00bcff;"></i>电子书</a></li>
+    <li><a rel="nofollow" href="http://www.ferebook.com/books/" target="_blank"><i class="iconfont icon-epub" style="color: #00bcff;"></i>ePUBee</a></li>
+    <li><a rel="nofollow" href="http://wufazhuce.com/" target="_blank"><i class="iconfont icon-yige" style="color: #00bcff;"></i>ONE一个</a></li>
+    <li><a rel="nofollow" href="https://www.meiriyiwen.com/" target="_blank"><i class="iconfont icon-wen" style="color: #00bcff;"></i>每日一文</a></li>
+    <li><a rel="nofollow" href="https://book.douban.com/" target="_blank"><i class="iconfont icon-doubandushu" style="color: #00bcff;"></i>豆瓣读书</a></li>
+    <!----> 
+    <li class="title"><i class="iconfont icon-xueshu"></i> 学习</li>
+    <li><a rel="nofollow" href="http://xueshu.baidu.com/" target="_blank"><i class="iconfont icon-baidu" style="color: #00bcff;"></i>百度学术</a></li>
+    <li><a rel="nofollow" href="https://scholar.google.com/" target="_blank"><i class="iconfont icon-guge" style="color: #00bcff;"></i>谷歌学术</a></li>
+    <li><a rel="nofollow" href="https://www.cnki.net/" target="_blank"><i class="iconfont icon-zhongguozhiwang" style="color: #00bcff;"></i>中国知网</a></li>
+    <li><a rel="nofollow" href="http://www.chaoxing.com/" target="_blank"><i class="iconfont icon-chaoxing" style="color: #00bcff;"></i>超星发现</a></li>
+    <li><a rel="nofollow" href="https://www.ixueshu.com/" target="_blank"><i class="iconfont icon-xueshu" style="color: #00bcff;"></i>爱学术</a></li>
+    <li><a rel="nofollow" href="https://www.cn-ki.net/" target="_blank"><i class="iconfont icon-yinxiangbiji" style="color: #00bcff;"></i>iData</a></li>
+    <li><a rel="nofollow" href="https://www.mbalib.com/" target="_blank"><i class="iconfont icon-M1" style="color: #00bcff;"></i>MBA智库</a></li>
+    <li><a rel="nofollow" href="http://book.sciencereading.cn" target="_blank"><i class="iconfont icon-tushu" style="color: #00bcff;"></i>科学文库</a></li>
+    <li><a rel="nofollow" href="http://www.nlc.cn/" target="_blank"><i class="iconfont icon-tushuguan" style="color: #00bcff;"></i>图书馆</a></li>
+    <li><a rel="nofollow" href="https://www.icourse163.org/" target="_blank"><i class="iconfont icon-MOOC" style="color: #00bcff;"></i>中国大学</a></li>
+    <li><a rel="nofollow" href="https://www.imooc.com/" target="_blank"><i class="iconfont icon-huo" style="color: #00bcff;"></i>慕课网</a></li>
+    <li><a rel="nofollow" href="http://robot.czxy.com/docs/" target="_blank"><i class="iconfont icon-zhi" style="color: #00bcff;"></i>传智播客</a></li>
+    <li><a rel="nofollow" href="https://python123.io/" target="_blank"><i class="iconfont icon-python" style="color: #00bcff;"></i>python123</a></li>
+    <li><a rel="nofollow" href="https://www.coursera.org/" target="_blank"><i class="iconfont icon-coursera" style="color: #00bcff;"></i>coursera</a></li>
+    <li><a rel="nofollow" href="http://www.udacity.com/" target="_blank"><i class="iconfont icon-udacity" style="color: #00bcff;"></i>udacity</a></li>
+    <!----> 
+    <li class="title"><i class="iconfont icon-yingyu"></i> 英语</li>
+    <li><a rel="nofollow" href="https://translate.google.com/" target="_blank"><i class="iconfont icon-Googlefanyi" style="color: #00bcff;"></i>谷歌翻译</a></li>
+    <li><a rel="nofollow" href="http://fanyi.youdao.com/" target="_blank"><i class="iconfont icon-youdaocidian" style="color: #00bcff;"></i>有道翻译</a></li>
+    <li><a rel="nofollow" href="https://www.deepl.com/translator" target="_blank"><i class="iconfont icon-deepl" style="color: #00bcff;"></i>Deepl翻译</a></li>
+    <li><a rel="nofollow" href="https://www.nounplus.net/grammarcheck/" target="_blank"><i class="iconfont icon-zimun" style="color: #00bcff;"></i>NOUNPLUS</a></li>
+    <li><a rel="nofollow" href="https://www.gingersoftware.com/grammarcheck#" target="_blank"><i class="iconfont icon-zimuG" style="color: #00bcff;"></i>Ginger</a></li>
+    <li><a rel="nofollow" href="https://aimwriting.mtutor.engkoo.com/" target="_blank"><i class="iconfont icon-weiruan" style="color: #00bcff;"></i>微软爱写作</a></li>
+    <li><a rel="nofollow" href="https://ludwig.guru/zh/" target="_blank"><i class="iconfont icon-dazi" style="color: #00bcff;"></i>Ludwig</a></li>
+    <li><a rel="nofollow" href="https://www.linggle.com/" target="_blank"><i class="iconfont icon-zimul" style="color: #00bcff;"></i>Linggle</a></li>
+    <li><a rel="nofollow" href="http://www.kekenet.com/" target="_blank"><i class="iconfont icon-zimuk" style="color: #00bcff;"></i>可可英语</a></li>
+    <li><a rel="nofollow" href="https://www.yxgapp.com/" target="_blank"><i class="iconfont icon-yi" style="color: #00bcff;"></i>译学馆</a></li>
+    <li><a rel="nofollow" href="http://language.chinadaily.com.cn/bbc/" target="_blank"><i class="iconfont icon-BBC" style="color: #00bcff;"></i>BBC</a></li>
+    <li><a rel="nofollow" href="https://www.ted.com/" target="_blank"><i class="iconfont icon-TED" style="color: #00bcff;"></i>TED</a></li>
+    <!---->
+    <li class="title"><i class="iconfont icon-kaifa"></i> 开发</li>  
+    <li><a rel="nofollow" href="https://www.microsoft.com/zh-cn" target="_blank"><i class="iconfont icon-gitee1" style="color: #00bcff;"></i>微软</a></li>
+    <li><a rel="nofollow" href="https://cn.ubuntu.com/" target="_blank"><i class="iconfont icon-gitee1" style="color: #00bcff;"></i>ubuntu</a></li>
+    <li><a rel="nofollow" href="http://wiki.ros.org/cn" target="_blank"><i class="iconfont icon-gitee1" style="color: #00bcff;"></i>ROS</a></li>
+    <li><a rel="nofollow" href="https://github.com/" target="_blank"><i class="iconfont icon-git" style="color:#00bcff;"></i>Github</a></li> 
+    <li><a rel="nofollow" href="https://gitee.com/" target="_blank"><i class="iconfont icon-gitee1" style="color: #00bcff;"></i>码云</a></li>
+    <li><a rel="nofollow" href="https://coding.net/" target="_blank"><i class="iconfont icon-gitee1" style="color: #00bcff;"></i>coding</a></li>
+    <li><a rel="nofollow" href="https://about.gitlab.com/" target="_blank"><i class="iconfont icon-gitee1" style="color: #00bcff;"></i>gitlab</a></li>
+    <li><a rel="nofollow" href="https://codepen.io/" target="_blank"><i class="iconfont icon-codepen" style="color:#00bcff;"></i>Codepen</a></li> 
+    <li><a rel="nofollow" href="http://jsbin.com/?html,output" target="_blank"><i class="iconfont icon-js" style="color:#00bcff;"></i>jsbin</a></li> 
+    <li><a rel="nofollow" href="https://wordpress.org/" target="_blank"><i class="iconfont icon-gitee1" style="color: #00bcff;"></i>wordpress</a></li>
+    <li><a rel="nofollow" href="http://typecho.org/" target="_blank"><i class="iconfont icon-gitee1" style="color: #00bcff;"></i>typecho</a></li>
+    <li><a rel="nofollow" href="https://hexo.io/" target="_blank"><i class="iconfont icon-gitee1" style="color: #00bcff;"></i>hexo</a></li>
+    <li><a rel="nofollow" href="https://cdnjs.com/" target="_blank"><i class="iconfont icon-cdn" style="color: #00bcff;"></i>CdnJs</a></li> 
+    <li><a rel="nofollow" href="https://fontawesome.com/icons?d=gallery&amp;m=free" target="_blank"><i class="iconfont icon-font-awesome" style="color: #00bcff;"></i>Font A.</a></li> 
+    <li><a rel="nofollow" href="https://msdn.itellyou.cn/" target="_blank"><i class="iconfont icon-windows" style="color: #00bcff;"></i>MSDN下载</a></li> 
+    <li><a rel="nofollow" href="https://dash.cloudflare.com/" target="_blank"><i class="iconfont icon-cloudflare" style="color: #00bcff;"></i>CFcdn</a></li> 
+    <li><a rel="nofollow" href="https://www.swiper.com.cn/" target="_blank"><i class="iconfont icon-swiper" style="color:#00bcff;"></i>Swiper</a></li>
+    <li><a rel="nofollow" href="http://www.w3school.com.cn/" target="_blank"><i class="iconfont icon-H" style="color:#00bcff;"></i>W3school</a></li> 
+    <!---->
+    <li class="title"><i class="iconfont icon-sheji"></i> 设计</li> 
+    <li><a rel="nofollow" href="https://www.dribbble.com/" target="_blank"><i class="iconfont icon-dribbble" style="color: #00bcff;"></i>Dribbble</a></li> 
+    <li><a rel="nofollow" href="https://www.pinterest.com/" target="_blank"><i class="iconfont icon-pinterest" style="color: #00bcff;"></i>Pinterest</a></li> 
+    <li><a rel="nofollow" href="https://www.behance.net/" target="_blank"><i class="iconfont icon-behance" style="color: #00bcff;"></i>Behance</a></li>  
+    <li><a rel="nofollow" href="https://huaban.com/" target="_blank"><i class="iconfont icon-huaban" style="color: #00bcff;"></i>花瓣</a></li>
+    <li><a rel="nofollow" href="https://www.zcool.com.cn/" target="_blank"><i class="iconfont icon-zhanku" style="color: #00bcff;"></i>站酷</a></li> 
+    <li><a rel="nofollow" href="https://ui.cn/" target="_blank"><i class="iconfont icon-UI" style="color: #00bcff;"></i>UI中国</a></li>  
+    <li><a rel="nofollow" href="https://www.pexels.com/" target="_blank"><i class="iconfont icon-TED" style="color: #00bcff;"></i>pexels</a></li>
+    <li><a rel="nofollow" href="https://unsplash.com/" target="_blank"><i class="iconfont icon-TED" style="color: #00bcff;"></i>unsplash</a></li>
+    <li><a rel="nofollow" href="https://pixabay.com/" target="_blank"><i class="iconfont icon-TED" style="color: #00bcff;"></i>pixabay</a></li>
+    <li><a rel="nofollow" href="https://www.iconfont.cn/" target="_blank"><i class="iconfont icon-iconfont" style="color: #00bcff;"></i>阿里图标</a></li>
+    <li><a rel="nofollow" href="https://www.iconfinder.com/" target="_blank"><i class="iconfont icon-eye" style="color: #00bcff;"></i>IconFinder</a></li>
+    <li><a rel="nofollow" href="http://www.easyicon.net/" target="_blank"><i class="iconfont icon--youshe" style="color: #00bcff;"></i>easyicon</a></li>
+    <li><a rel="nofollow" href="http://zhongguose.com/" target="_blank"><i class="iconfont icon-TED" style="color: #00bcff;"></i>中国色</a></li>
+    <li><a rel="nofollow" href="http://colorhunt.co/" target="_blank"><i class="iconfont icon-TED" style="color: #00bcff;"></i>色彩猎人</a></li>
+    <li><a rel="nofollow" href="https://www.hellofont.cn/" target="_blank"><i class="iconfont icon-TED" style="color: #00bcff;"></i>字由</a></li>
+    <li><a rel="nofollow" href="https://www.gaoding.com/" target="_blank"><i class="iconfont icon-TED" style="color: #00bcff;"></i>搞定设计</a></li>
+    <li><a rel="nofollow" href="https://www.fotor.com.cn/" target="_blank"><i class="iconfont icon-TED" style="color: #00bcff;"></i>懒设计</a></li>
+    <li><a rel="nofollow" href="https://www.logoko.com.cn/" target="_blank"><i class="iconfont icon-TED" style="color: #00bcff;"></i>标点狗</a></li>
+    <!----> 
+    <li class="title"><i class="iconfont icon-tool"></i> 工具</li> 
+    <li><a rel="nofollow" href="https://tool.lu/" target="_blank"><i class="iconfont icon-tool" style="color: #00bcff;"></i>在线工具</a></li>
+    <li><a rel="nofollow" href="https://www.toolnb.com/" target="_blank"><i class="iconfont icon-tool" style="color: #00bcff;"></i>爱资料工具</a></li>
+    <li><a rel="nofollow" href="http://www.gjw123.com/" target="_blank"><i class="iconfont icon-tool" style="color: #00bcff;"></i>工具123</a></li>
+    <li><a rel="nofollow" href="https://xiaomark.com/tool" target="_blank"><i class="iconfont icon-ping" style="color:#00bcff;"></i>工具大全</a></li>
+    <li><a rel="nofollow" href="https://www.ip.cn/" target="_blank"><i class="iconfont icon-IP" style="color: #00bcff;"></i>IP查询</a></li> 
+    <li><a rel="nofollow" href="https://www.speedtest.cn/" target="_blank"><i class="iconfont icon-fanyi1" style="color: #00bcff;"></i>测速网</a></li> 
+    <li><a rel="nofollow" href="http://sina.lt/" target="_blank"><i class="iconfont icon-duan" style="color: #00bcff;"></i>短网址</a></li> 
+    <li><a rel="nofollow" href="https://temp-mail.org/zh/" target="_blank"><i class="iconfont icon-pdf" style="color: #00bcff;"></i>临时邮箱</a></li>
+    <li><a rel="nofollow" href="https://zh.mytrashmobile.com/" target="_blank"><i class="iconfont icon-pdf" style="color: #00bcff;"></i>临时短信</a></li>
+    <li><a rel="nofollow" href="https://convertio.co/zh/" target="_blank"><i class="iconfont icon-zhuanhuan" style="color:#00bcff;"></i>转换</a></li>
+    <li><a rel="nofollow" href="https://smallpdf.com/cn" target="_blank"><i class="iconfont icon-pdf" style="color: #00bcff;"></i>smallpdf</a></li>
+    <li><a rel="nofollow" href="https://www.pdfpai.com/" target="_blank"><i class="iconfont icon-pdf" style="color: #00bcff;"></i>PDF派</a></li>
+    <li><a rel="nofollow" href="https://docsmall.com/" target="_blank"><i class="iconfont icon-pdf" style="color: #00bcff;"></i>docsmall</a></li>
+    <li><a rel="nofollow" href="https://www.ilovepdf.com/zh-cn" target="_blank"><i class="iconfont icon-pdf" style="color: #00bcff;"></i>ilovepdf</a></li>
+    <li><a rel="nofollow" href="https://www.iloveimg.com/zh-cn" target="_blank"><i class="iconfont icon-tupian1" style="color: #00bcff;"></i>iloveimg</a></li>
+    <li><a rel="nofollow" href="https://www.superbed.cn/" target="_blank"><i class="iconfont icon-tupian2" style="color:#00bcff;"></i>聚合图床</a></li>
+    <li><a rel="nofollow" href="https://www.remove.bg/zh" target="_blank"><i class="iconfont icon-tupian1" style="color: #00bcff;"></i>remove</a></li>
+    <li><a rel="nofollow" href="https://img.top/" target="_blank"><i class="iconfont icon-img" style="color:#00bcff;"></i>图像压缩</a></li>
+    <li><a rel="nofollow" href="https://zhitu.isux.us/" target="_blank"><i class="iconfont icon-img" style="color:#00bcff;"></i>智图</a></li>
+    <li><a rel="nofollow" href="https://bigjpg.com/" target="_blank"><i class="iconfont icon-aifangda" style="color:#00bcff;"></i>bigjpg</a></li>
+    <li><a rel="nofollow" href="https://imglarger.com/Tw" target="_blank"><i class="iconfont icon-aifangda" style="color:#00bcff;"></i>图像放大</a></li>
+    <li><a rel="nofollow" href="https://jianwai.youdao.com/" target="_blank"><i class="iconfont icon-tupian1" style="color: #00bcff;"></i>网易见外</a></li>
+    <li><a rel="nofollow" href="https://savieo.com/" target="_blank"><i class="iconfont icon-shipin" style="color:#00bcff;"></i>savieo</a></li>
+    <li><a rel="nofollow" href="https://www.soogif.com/" target="_blank"><i class="iconfont icon-tupian1" style="color: #00bcff;"></i>soogif</a></li>
+    <!----> 
+    <li class="title"><i class="iconfont icon-tool"></i> 资源</li>
+    <li><a rel="nofollow" href="https://www.52pojie.cn/" target="_blank"><i class="iconfont icon-tupian1" style="color: #00bcff;"></i>吾爱破解</a></li>
+    <li><a rel="nofollow" href="https://www.ypojie.com/" target="_blank"><i class="iconfont icon-tupian1" style="color: #00bcff;"></i>易破解</a></li>
+    <li><a rel="nofollow" href="https://www.appinn.com/" target="_blank"><i class="iconfont icon-tupian1" style="color: #00bcff;"></i>小众软件</a></li>
+    <li><a rel="nofollow" href="https://www.iplaysoft.com/" target="_blank"><i class="iconfont icon-tupian1" style="color: #00bcff;"></i>异次元</a></li>
+    <li><a rel="nofollow" href="https://play.google.com/store" target="_blank"><i class="iconfont icon-tupian1" style="color: #00bcff;"></i>GooglePlay</a></li>
+    <li><a rel="nofollow" href="https://www.z2app.com/" target="_blank"><i class="iconfont icon-tupian1" style="color: #00bcff;"></i>app2</a></li>
+    <li><a rel="nofollow" href="https://www.extfans.com/" target="_blank"><i class="iconfont icon-tupian1" style="color: #00bcff;"></i>扩展迷</a></li>
+    <li><a rel="nofollow" href="https://chrome.zzzmh.cn/" target="_blank"><i class="iconfont icon-tupian1" style="color: #00bcff;"></i>极简插件</a></li>
+    <li><a rel="nofollow" href="https://greasyfork.org/zh-CN/scripts" target="_blank"><i class="iconfont icon-tupian1" style="color: #00bcff;"></i>油猴脚本</a></li>
+    <li><a rel="nofollow" href="http://www.officeplus.cn/" target="_blank"><i class="iconfont icon-tupian1" style="color: #00bcff;"></i>officeplus</a></li>
+    <li><a rel="nofollow" href="https://www.ypppt.com/" target="_blank"><i class="iconfont icon-tupian1" style="color: #00bcff;"></i>优品PPT</a></li>
+    <li><a rel="nofollow" href="https://bing.ioliu.cn/" target="_blank"><i class="iconfont icon-tupian1" style="color: #00bcff;"></i>必应壁纸</a></li>
+    <!----> 
+    <li class="title"><i class="iconfont icon-shijie"></i> 世界</li>
+    <li><a rel="nofollow" href="https://www.youtube.com/" target="_blank"><i class="iconfont icon-you-tube" style="color: #00bcff;"></i>Youtube</a></li>
+    <li><a rel="nofollow" href="https://www.instagram.com" target="_blank"><i class="iconfont icon-ins" style="color: #00bcff;"></i>Instagram</a></li> 
+    <li><a rel="nofollow" href="https://www.twitter.com" target="_blank"><i class="iconfont icon-twitter" style="color: #00bcff;"></i>Twitter</a></li> 
+    <li><a rel="nofollow" href="https://www.facebook.com" target="_blank"><i class="iconfont icon-facebook" style="color: #00bcff;" v=""></i>Facebook</a></li>
+    <li><a rel="nofollow" href="https://www.tumblr.com/" target="_blank"><i class="iconfont icon-tumblr" style="color: #00bcff;" v=""></i>tumblr</a></li>
+    <li><a rel="nofollow" href="https://vk.com/" target="_blank"><i class="iconfont icon-vk" style="color: #00bcff;" v=""></i>vk</a></li>
+    <!---->
+    <li class="title"><i class="iconfont icon-daohang-tianchong"></i> 导航</li>
+    <li><a rel="nofollow" href="https://kim.plopco.com" target="_blank"><i class="iconfont icon-daohang" style="color: #00bcff;"></i>kim主页</a></li>
+    <li><a rel="nofollow" href="https://www.bidianer.com/#/" target="_blank"><i class="iconfont icon-maobi" style="color: #00bcff;"></i>笔点导航</a></li>
+    <li><a rel="nofollow" href="http://chuangzaoshi.com/" target="_blank"><i class="iconfont icon-shizi" style="color: #00bcff;"></i>创造狮</a></li>
+    <li><a rel="nofollow" href="https://hao.uisdc.com/" target="_blank"><i class="iconfont icon--youshe" style="color: #00bcff;"></i>优设导航</a></li>
+    <li><a rel="nofollow" href="https://adzhp.cn" target="_blank"><i class="iconfont icon-A" style="color: #00bcff;"></i>爱达杂货铺</a></li>
+    <li><a rel="nofollow" href="https://www.egouz.com/" target="_blank"><i class="iconfont icon-e" style="color: #00bcff;"></i>egouz</a></li>
+    <!---->
+    <li class="title"><i class="iconfont icon-youlian"></i> 友链</li>
+    <li><a rel="nofollow" href="https://wxnan.gitee.io/nan_hang/" target="_blank"><i class="iconfont icon-feng" style="color: #00bcff;"></i>楠航</a></li>
+    <li><a rel="nofollow" href="http://wxn.is-best.net/" target="_blank"><i class="iconfont icon-blog" style="color: #00bcff;"></i>博客</a></li>
+    <li><a rel="nofollow" href="https://gitee.com/wxnan" target="_blank"><i class="iconfont icon-gitee1" style="color: #00bcff;"></i>码云</a></li>
+    <li><a rel="nofollow" href="http://xzhuye.is-best.net/api/bing.php" target="_blank"><i class="iconfont icon-bing" style="color: #00bcff;"></i>必应壁纸</a></li>
+    <li><a rel="nofollow" href="http://xzhuye.is-best.net/api/bizhi.php" target="_blank"><i class="iconfont icon-tupian" style="color: #00bcff;"></i>随机壁纸</a></li>
+    <li><a rel="nofollow" href="http://xzhuye.is-best.net/api/sjbizhi.php" target="_blank"><i class="iconfont icon-tupian1" style="color: #00bcff;"></i>手机壁纸</a></li>
+    <!---->
+   </ul>  
+    </div>
+  <!--和风天气-->
+  <div class="mywth">
+<div data-v-41ba7e2c="" id="he-plugin-simple" style="position: relative;"><script data-v-41ba7e2c="" type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.14&amp;key=e2b04289e870b005374ee030148d64fd"></script> <div data-v-41ba7e2c="" class="s-sticker" style="font-size: 1.4em; cursor: pointer; padding: 10px; background-image: url(&quot;https://cdn.heweather.com/img/plugin/190516/bg/sticker/104d.png&quot;); background-repeat: no-repeat; background-position: left top; background-size: 100%; border-radius: 5px;"><div data-v-41ba7e2c="" style="width: 50%;"></div> <div data-v-7d48daab="" data-v-41ba7e2c="" class="s-sticker-tmp module" style="font-size: 16px; color: rgb(255, 255, 255); vertical-align: middle;">5°C</div><div data-v-7d48daab="" data-v-41ba7e2c="" class="s-sticker-city module" style="font-size: 16px; color: rgb(255, 255, 255); vertical-align: middle;">岳阳</div><div data-v-7d48daab="" data-v-41ba7e2c="" class="s-sticker-cond module" style="vertical-align: middle;"><img data-v-7d48daab="" src="https://cdn.heweather.com/img/plugin/190516/icon/c/104d.png" style="width: 24px; height: 24px;"></div> <div data-v-41ba7e2c="" style="width: 50%;"></div></div> <div data-v-41ba7e2c=""><!----></div></div>
+<script>
+WIDGET = {
+  CONFIG: {
+    "modules": "012",
+    "background": 1,
+    "tmpColor": "FFFFFF",
+    "tmpSize": 16,
+    "cityColor": "FFFFFF",
+    "citySize": 16,
+    "aqiSize": 16,
+    "weatherIconSize": 24,
+    "alertIconSize": 18,
+    "padding": "10px 10px 10px 10px",
+    "shadow": "1",
+    "language": "auto",
+    "borderRadius": 5,
+    "fixed": "false",
+    "vertical": "middle",
+    "horizontal": "center",
+    "key": "93b5bd5cb33e455c90d9ed829e5e4895"
+  }
+}
+</script>
+<script src="https://widget.heweather.net/simple/static/js/he-simple-common.js?v=1.1"></script>
+</div>
+<!---->
+  <div id="search" class="s-search">
+   <div id="search-list" class="hide-type-list">
+    <div class="s-type">
+     <span></span>
+     <div class="s-type-list animated fadeInUp">
+      <label for="type-baidu">常用</label>
+      <label for="type-bing">搜索</label>
+      <label for="type-baiduxueshu">学习</label>
+      <label for="type-br">工具</label>
+      <label for="type-wechat">社区</label>
+      <label for="type-快递100">生活</label>
+     </div>
+     </div>
+    <div class="search-group group-a s-current">
+     <span class="type-text">常用</span>
+     <ul class="search-type">
+      <li><input onclick="bw()" checked="" hidden="" type="radio" name="type" id="type-baidu" value="https://www.baidu.com/s?wd=" data-placeholder="百度一下" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 百度
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 24" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 百度
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 24" autofill-prediction="UNKNOWN_TYPE"><label for="type-baidu"><span>百度</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-google" value="https://www.google.com/search?q=" data-placeholder="谷歌两下" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: Google
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 25" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: Google
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 25" autofill-prediction="UNKNOWN_TYPE"><label for="type-google"><span>Google</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-fsou" value="https://fsou.cc/search?q=" data-placeholder="F Search" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: f搜
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 26" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: f搜
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 26" autofill-prediction="UNKNOWN_TYPE"><label for="type-fsou"><span>f搜</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-zhihu" value="https://www.zhihu.com/search?type=content&amp;q=" data-placeholder="知乎" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 知乎
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 27" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 知乎
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 27" autofill-prediction="UNKNOWN_TYPE"><label for="type-zhihu"><span>知乎</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-youhui" value="http://nrplg.yhzu.cn/?r=/l&amp;kw=" data-placeholder="优惠券" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 优惠券
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 28" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 优惠券
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 28" autofill-prediction="UNKNOWN_TYPE"><label for="type-youhui"><span>优惠券</span></label></li>
+     </ul>
+    </div>
+    <div class="search-group group-b">
+     <span class="type-text">搜索</span>
+     <ul class="search-type">
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-bing" value="https://cn.bing.com/search?q=" data-placeholder="Bing搜索" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: Bing
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 29" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: Bing
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 29" autofill-prediction="UNKNOWN_TYPE"><label for="type-bing"><span>Bing</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-yandex" value="https://yandex.com/search/?text=" data-placeholder="Yandex搜索" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: yandex
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 30" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: yandex
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 30" autofill-prediction="UNKNOWN_TYPE"><label for="type-yandex"><span>yandex</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-miji" value="https://mijisou.com/?q=" data-placeholder="秘迹搜索" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 秘迹
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 31" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 秘迹
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 31" autofill-prediction="UNKNOWN_TYPE"><label for="type-miji"><span>秘迹</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-360" value="https://www.so.com/s?q=" data-placeholder="360好搜" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 360
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 32" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 360
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 32" autofill-prediction="UNKNOWN_TYPE"><label for="type-360"><span>360</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-sogo" value="https://www.sogou.com/web?query=" data-placeholder="搜狗搜索" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 搜狗
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 33" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 搜狗
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 33" autofill-prediction="UNKNOWN_TYPE"><label for="type-sogo"><span>搜狗</span></label></li>
+     </ul>
+    </div>
+    <div class="search-group group-c">
+     <span class="type-text">学习</span>
+     <ul class="search-type">
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-baiduxueshu" value="https://xueshu.baidu.com/s?wd=" data-placeholder="百度学术" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 百度
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 34" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 百度
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 34" autofill-prediction="UNKNOWN_TYPE"><label for="type-baiduxueshu"><span>百度</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-googlescholar" value="https://scholar.google.com/scholar?hl=zh-CN&amp;as_sdt=0%2C5&amp;q=" data-placeholder="谷歌学术" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 谷歌
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 35" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 谷歌
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 35" autofill-prediction="UNKNOWN_TYPE"><label for="type-googlescholar"><span>谷歌</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-Zlibrary" value="https://b-ok.global/s/?q=" data-placeholder="Zlibrary电子书" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: Zlibrary
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 36" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: Zlibrary
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 36" autofill-prediction="UNKNOWN_TYPE"><label for="type-Zlibrary"><span>Zlibrary</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-github" value="https://github.com/search?q=" data-placeholder="github" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: github
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 37" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: github
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 37" autofill-prediction="UNKNOWN_TYPE"><label for="type-github"><span>github</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-CSDN" value="https://so.csdn.net/so/search/s.do?q=" data-placeholder="CSDN" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: CSDN
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 38" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: CSDN
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 38" autofill-prediction="UNKNOWN_TYPE"><label for="type-CSDN"><span>CSDN</span></label></li>
+     </ul>
+    </div>
+    <div class="search-group group-d">
+     <span class="type-text">工具</span>
+     <ul class="search-type">
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-br" value="http://rank.chinaz.com/all/" data-placeholder="请输入网址(不带http://)" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 权重查询
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 39" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 权重查询
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 39" autofill-prediction="UNKNOWN_TYPE"><label for="type-br"><span>权重查询</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-links" value="http://link.chinaz.com/" data-placeholder="请输入网址(不带http://)" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 友链检测
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 40" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 友链检测
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 40" autofill-prediction="UNKNOWN_TYPE"><label for="type-links"><span>友链检测</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-icp" value="https://icp.aizhan.com/" data-placeholder="请输入网址(不带http://)" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 备案查询
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 41" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 备案查询
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 41" autofill-prediction="UNKNOWN_TYPE"><label for="type-icp"><span>备案查询</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-ping" value="http://ping.chinaz.com/" data-placeholder="请输入网址(不带http://)" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: PING检测
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 42" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: PING检测
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 42" autofill-prediction="UNKNOWN_TYPE"><label for="type-ping"><span>PING检测</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-404" value="http://tool.chinaz.com/Links/?DAddress=" data-placeholder="请输入网址(不带http://)" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 死链检测
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 43" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 死链检测
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 43" autofill-prediction="UNKNOWN_TYPE"><label for="type-404"><span>死链检测</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-ciku" value="http://www.ciku5.com/s?wd=" data-placeholder="请输入关键词" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 关键词挖掘
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 44" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 关键词挖掘
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 44" autofill-prediction="UNKNOWN_TYPE"><label for="type-ciku"><span>关键词挖掘</span></label></li>
+     </ul>
+    </div>
+    <div class="search-group group-e">
+     <span class="type-text">社区</span>
+     <ul class="search-type">
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-wechat" value="http://weixin.sogou.com/weixin?type=2&amp;query=" data-placeholder="微信" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 微信
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 45" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 微信
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 45" autofill-prediction="UNKNOWN_TYPE"><label for="type-wechat"><span>微信</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-weibo" value="http://s.weibo.com/weibo/" data-placeholder="微博" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 微博
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 46" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 微博
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 46" autofill-prediction="UNKNOWN_TYPE"><label for="type-weibo"><span>微博</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-douban" value="https://www.douban.com/search?q=" data-placeholder="豆瓣" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 豆瓣
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 47" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 豆瓣
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 47" autofill-prediction="UNKNOWN_TYPE"><label for="type-douban"><span>豆瓣</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-why" value="https://ask.seowhy.com/search/?q=" data-placeholder="SEO问答社区" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 搜外问答
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 48" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 搜外问答
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 48" autofill-prediction="UNKNOWN_TYPE"><label for="type-why"><span>搜外问答</span></label></li>
+     </ul>
+    </div>
+    <div class="search-group group-f">
+     <span class="type-text">生活</span>
+     <ul class="search-type">
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-快递100" value="http://www.kuaidi100.com/?" data-placeholder="快递100" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 快递100
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 49" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 快递100
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 49" autofill-prediction="UNKNOWN_TYPE"><label for="type-快递100"><span>快递100</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-xiachufang" value="http://www.xiachufang.com/search/?keyword=" data-placeholder="下厨房" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 下厨房
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 50" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 下厨房
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 50" autofill-prediction="UNKNOWN_TYPE"><label for="type-xiachufang"><span>下厨房</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-xiangha" value="https://www.xiangha.com/so/?q=caipu&amp;s=" data-placeholder="香哈菜谱" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 香哈菜谱
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 51" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 香哈菜谱
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 51" autofill-prediction="UNKNOWN_TYPE"><label for="type-xiangha"><span>香哈菜谱</span></label></li>
+      <li><input onclick="bw()" hidden="" type="radio" name="type" id="type-12306" value="http://www.12306.cn/?" data-placeholder="12306" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 12306
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 52" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 12306
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 52" autofill-prediction="UNKNOWN_TYPE"><label for="type-12306"><span>12306</span></label></li>
+      <li> <input onclick="bw()" hidden="" type="radio" name="type" id="type-qunar" value="https://www.qunar.com/?" data-placeholder="去哪儿" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 去哪儿
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 53" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 去哪儿
+parseable name: type
+section: type_0_24
+field signature: 3303244155
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 53" autofill-prediction="UNKNOWN_TYPE"><label for="type-qunar"><span>去哪儿</span></label></li>
+     </ul>
+    </div>
+   </div>
+   <form action="https://www.baidu.com/s?wd=" method="get" target="_blank" id="super-search-fm">
+    <input type="text" id="search-text" placeholder="百度一下" style="outline:0" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 百度一下
+parseable name: search-text
+section: search-text_0_54
+field signature: 26595726
+form signature: 3995216335870324175
+form signature in host form: 3995216335870324175
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 3
+field renderer id: 54" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 百度一下
+parseable name: search-text
+section: search-text_0_54
+field signature: 26595726
+form signature: 3995216335870324175
+form signature in host form: 3995216335870324175
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 3
+field renderer id: 54" autofill-prediction="UNKNOWN_TYPE">
+    <button type="submit"><i class="iconfont icon-sousuo"></i></button>
+    <ul id="ul" class="ko"></ul>
+   </form>
+   <div id="yy" style="display:none;">
+    <input type="text" id="kos" placeholder="<?php echo $word; ?>" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: <?php echo $word; ?>
+parseable name: kos
+section: type_0_24
+field signature: 1393670842
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 56" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: <?php echo $word; ?>
+parseable name: kos
+section: type_0_24
+field signature: 1393670842
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 56" autofill-prediction="UNKNOWN_TYPE">
+    <button type="submit" id="kob"><i class="iconfont icon-xdss"></i></button>
+    <ul id="kol" class="ko"></ul>
+   </div>
+   <div class="set-check hidden-xs">
+    <input type="checkbox" id="set-search-blank" class="bubble-3" autocomplete="off" title="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 今日诗词: 昔闻洞庭水，今上岳阳楼。 常用
+parseable name: set-search-blank
+section: type_0_24
+field signature: 3287237025
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 58
+autocomplete: off" autofill-information="overall type: UNKNOWN_TYPE
+server type: NO_SERVER_DATA
+heuristic type: UNKNOWN_TYPE
+label: 今日诗词: 昔闻洞庭水，今上岳阳楼。 常用
+parseable name: set-search-blank
+section: type_0_24
+field signature: 3287237025
+form signature: 16550867717893632607
+form signature in host form: 16550867717893632607
+field frame token: FFB5B601850F1C995256DFF3AE0FD173
+form renderer id: 0
+field renderer id: 58
+autocomplete: off" autofill-prediction="UNKNOWN_TYPE">
+   </div>
+  </div> 
+  <script type="text/javascript" src="js/yyss.js"></script>
+  <script type="text/javascript" src="js/sousuo.js"></script> 
+  <script type="text/javascript" src="js/lianxiang.js"></script> 
+  <div class="bgo"></div> 
+  <img class="logo" src="images/ny-bai.png">  
+ 
+
+<div class="iciba-root" style="all: initial;"></div></body></html>
